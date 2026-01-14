@@ -19,10 +19,10 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const navLinks = [
   { href: "/", label: "Home", icon: Home },
-  { href: "/courses", label: "Courses", icon: BookOpen },
-  { href: "/community", label: "Community", icon: Users },
+  { href: "/courses", label: "Services", icon: BookOpen },
+  { href: "/community", label: "Samples", icon: Users },
   { href: "/about", label: "About", icon: Info },
-  { href: "/contact", label: "Contact", icon: Mail },
+  { href: "/contact", label: "Request Project", icon: Mail },
 ]
 
 export function Navbar() {
@@ -47,10 +47,10 @@ export function Navbar() {
       <nav className="container mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-neon-blue to-neon-purple flex items-center justify-center glow-blue group-hover:scale-105 transition-transform">
-            <BookOpen className="w-5 h-5 text-white" />
-          </div>
-          <span className="text-xl font-bold gradient-text">EduLinkUp</span>
+            <div className="w-32 h-20 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
+              <img src="/logo5.png" alt="YourCapstone Logo" className="w-600 h-600 object-contain scale-110" />
+            </div>
+          {/* <span className="text-xl font-bold gradient-text h-6">YourCapstone</span> */}
         </Link>
 
         {/* Desktop Navigation */}

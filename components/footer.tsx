@@ -3,22 +3,22 @@ import { BookOpen, Youtube, Twitter, Github, Linkedin, Instagram } from "lucide-
 
 const footerLinks = {
   platform: [
-    { href: "/courses", label: "Courses" },
-    { href: "/community", label: "Forum" },
+    { href: "/courses", label: "Our Services" },
+    { href: "/contact", label: "Request Project" },
     { href: "/about", label: "About Us" },
-    { href: "/contact", label: "Contact" },
+    { href: "/faq", label: "FAQ" },
   ],
   categories: [
-    { href: "/courses?category=engineering", label: "Engineering" },
-    { href: "/courses?category=medical", label: "Medical" },
-    { href: "/courses?category=boards", label: "Board Exams" },
-    { href: "/courses?category=government", label: "Govt Exams" },
+    { href: "/courses?category=web-development", label: "Web Development" },
+    { href: "/courses?category=mobile-app", label: "Mobile Apps" },
+    { href: "/courses?category=ml-ai", label: "ML/AI Projects" },
+    { href: "/courses?category=database", label: "Database Projects" },
   ],
   resources: [
-    { href: "#", label: "Blog" },
-    { href: "#", label: "Tutorials" },
-    { href: "#", label: "Documentation" },
-    { href: "/faq", label: "FAQ" },
+    { href: "#", label: "Sample Projects" },
+    { href: "#", label: "Pricing" },
+    { href: "/terms", label: "Terms" },
+    { href: "/privacy", label: "Privacy" },
   ],
 }
 
@@ -42,11 +42,10 @@ export function Footer() {
               <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-neon-blue to-neon-purple flex items-center justify-center">
                 <BookOpen className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold gradient-text">EduLinkUp</span>
+              <span className="text-xl font-bold gradient-text">YourCapstone</span>
             </Link>
             <p className="text-muted-foreground mb-6 max-w-sm text-sm md:text-base">
-              Your gateway to quality education. Learn coding, prepare for exams, and connect with a network of
-              ambitious learners.
+              Your trusted capstone project partner. Expert developers delivering quality academic projects with complete source code and documentation.
             </p>
             <div className="flex items-center gap-3">
               {socialLinks.map((social) => {
@@ -133,7 +132,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-glass-border mt-8 lg:mt-12 pt-6 lg:pt-8 flex flex-col lg:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-xs md:text-sm text-center lg:text-left">
-            © {new Date().getFullYear()} EduLinkUp. All rights reserved.
+            © {new Date().getFullYear()} YourCapstone. All rights reserved. Empowering students with quality capstone and academic project solutions.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 lg:gap-6 text-xs md:text-sm">
             <Link href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap">

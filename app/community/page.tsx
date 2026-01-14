@@ -12,16 +12,16 @@ import { CreatePostDialog } from "@/components/community/create-post-dialog"
 const discussions = [
   {
     id: "1",
-    title: "Best approach for solving JEE Advanced Calculus problems?",
+    title: "Amazing E-Commerce Project - Delivered Before Deadline!",
     content:
-      "I'm struggling with integration problems in JEE Advanced. Can someone share effective strategies and resources for mastering calculus? Any recommended books or video lectures?",
+      "Just received my capstone e-commerce project from YourCapstone. The quality is outstanding! Complete React frontend with Node.js backend, payment integration working perfectly. Got it 2 days before my submission deadline. Highly recommend! 🌟",
     author: {
       name: "Rahul Mehta",
-      avatar: "/student-avatar-male-indian.jpg",
+      avatar: "https://i.pravatar.cc/150?img=11",
       reputation: 1250,
     },
-    category: "Engineering",
-    tags: ["JEE", "Calculus", "Mathematics"],
+    category: "Web Development",
+    tags: ["React", "Node.js", "E-Commerce"],
     replies: 24,
     views: 456,
     likes: 38,
@@ -31,16 +31,16 @@ const discussions = [
   },
   {
     id: "2",
-    title: "NEET Biology: Cell Division conceptual doubts",
+    title: "ML Face Recognition Project - Exceeded Expectations",
     content:
-      "Can someone explain the difference between mitosis and meiosis in detail? I keep confusing the stages. Looking for a clear explanation with diagrams if possible.",
+      "The face recognition attendance system I ordered is simply perfect. Python code is well-documented, OpenCV implementation is smooth, and the accuracy is impressive. Even got help with my presentation. Worth every rupee!",
     author: {
       name: "Priya Sharma",
-      avatar: "/female-student-avatar.png",
+      avatar: "https://i.pravatar.cc/150?img=26",
       reputation: 890,
     },
-    category: "Medical",
-    tags: ["NEET", "Biology", "Cell Division"],
+    category: "ML/AI",
+    tags: ["Python", "OpenCV", "Machine Learning"],
     replies: 18,
     views: 312,
     likes: 27,
@@ -50,16 +50,16 @@ const discussions = [
   },
   {
     id: "3",
-    title: "UPSC Prelims 2024: Important current affairs topics",
+    title: "Best Project Service - Hospital Management System Success",
     content:
-      "Let's compile a comprehensive list of important current affairs topics for UPSC Prelims 2024. I'll start with key areas:\n\n1. G20 Summit 2023 - India's Presidency, key outcomes, and declarations\n2. Chandrayaan-3 Mission - Successful lunar landing, scientific objectives\n3. New Parliament Building - Inauguration, architectural significance\n4. India-Middle East-Europe Economic Corridor (IMEC)\n5. Uniform Civil Code debates and implementations\n6. Climate Change - COP28 outcomes, India's commitments\n7. Digital India initiatives - UPI international expansion\n8. Women's Reservation Bill - 128th Constitutional Amendment\n9. India's semiconductor mission and manufacturing push\n10. Border disputes and diplomatic relations with neighbors\n\nPlease add more topics and share your preparation strategies! Let's help each other cover all important areas.",
+      "YourCapstone team delivered an excellent Hospital Management System for my final year project. Complete with patient records, appointments, billing - everything working flawlessly. Java code is clean and MySQL database is perfectly normalized. Documentation is comprehensive. Got A+ grade! 🎉\n\nFeatures delivered:\n1. Patient Registration & Records\n2. Doctor Management\n3. Appointment Scheduling\n4. Billing System\n5. Admin Dashboard\n6. Report Generation\n\nThank you YourCapstone team!",
     author: {
       name: "Amit Kumar",
-      avatar: "/male-student-avatar.png",
+      avatar: "https://i.pravatar.cc/150?img=33",
       reputation: 2340,
     },
-    category: "Government",
-    tags: ["UPSC", "Current Affairs", "Prelims"],
+    category: "Database",
+    tags: ["Java", "MySQL", "Desktop App"],
     replies: 45,
     views: 1234,
     likes: 89,
@@ -69,16 +69,16 @@ const discussions = [
   },
   {
     id: "4",
-    title: "Python vs JavaScript for beginners - Which one to learn first?",
+    title: "React Native Chat App - Professional Quality",
     content:
-      "I want to start my coding journey but confused between Python and JavaScript. What would you recommend for a complete beginner who wants to eventually get into web development?",
+      "Ordered a WhatsApp-style chat application for my capstone project. The React Native code is top-notch with Firebase backend. Real-time messaging works perfectly, media sharing is smooth. Even my professor was impressed with the code quality!",
     author: {
       name: "Neha Gupta",
-      avatar: "/female-professor-avatar.png",
+      avatar: "https://i.pravatar.cc/150?img=45",
       reputation: 450,
     },
-    category: "Engineering",
-    tags: ["Python", "JavaScript", "Coding"],
+    category: "Mobile App",
+    tags: ["React Native", "Firebase", "Chat App"],
     replies: 32,
     views: 567,
     likes: 41,
@@ -88,16 +88,16 @@ const discussions = [
   },
   {
     id: "5",
-    title: "Class 12 Physics - Electromagnetic Induction derivations",
+    title: "Library Management System - Complete Package",
     content:
-      "Can someone help me understand the derivation of Faraday's law? I'm preparing for boards and this chapter is quite challenging. Any tips for memorizing the formulas?",
+      "Perfect desktop application for my project. C# with SQL Server - exactly what I needed. Book issue/return, member management, fine calculation all working great. Plus got complete project report and PPT. Lifesaver!",
     author: {
       name: "Vikram Singh",
-      avatar: "/student-avatar-male-indian.jpg",
+      avatar: "https://i.pravatar.cc/150?img=52",
       reputation: 720,
     },
-    category: "Boards",
-    tags: ["CBSE", "Physics", "Class 12"],
+    category: "Desktop App",
+    tags: ["C#", ".NET", "SQL Server"],
     replies: 15,
     views: 234,
     likes: 19,
@@ -107,16 +107,16 @@ const discussions = [
   },
   {
     id: "6",
-    title: "SSC CGL Tier 1 - How to manage time effectively?",
+    title: "Student Portal Web App - Full Stack Excellence",
     content:
-      "I'm appearing for SSC CGL this year. The time constraint is my biggest challenge. How do you guys manage to attempt all 100 questions in 60 minutes? Any strategies?",
+      "Ordered a student management portal with Angular + Spring Boot. The implementation is solid - authentication, dashboards, grade management all perfect. Clean code with detailed documentation. Delivered 3 days early!",
     author: {
       name: "Rajesh Pandey",
-      avatar: "/male-student-avatar.png",
+      avatar: "https://i.pravatar.cc/150?img=68",
       reputation: 1100,
     },
-    category: "Government",
-    tags: ["SSC", "CGL", "Time Management"],
+    category: "Web Development",
+    tags: ["Angular", "Spring Boot", "Full Stack"],
     replies: 28,
     views: 445,
     likes: 35,
@@ -126,16 +126,16 @@ const discussions = [
   },
   {
     id: "7",
-    title: "NEET Chemistry: Organic reaction mechanisms made easy",
+    title: "Blockchain Project - Modern & Well-Documented",
     content:
-      "I've compiled my notes on organic chemistry mechanisms. Sharing some tips that helped me score well in chemistry. The key is understanding electron movement...",
+      "Got a blockchain voting system for my final project. The Solidity smart contracts are well-written and the React frontend is responsive. Even explained how everything works. Great value for money!",
     author: {
       name: "Ananya Reddy",
-      avatar: "/female-student-avatar.png",
+      avatar: "https://i.pravatar.cc/150?img=23",
       reputation: 1560,
     },
-    category: "Medical",
-    tags: ["NEET", "Chemistry", "Organic"],
+    category: "Blockchain",
+    tags: ["Blockchain", "Solidity", "Web3"],
     replies: 22,
     views: 389,
     likes: 52,
@@ -145,16 +145,16 @@ const discussions = [
   },
   {
     id: "8",
-    title: "Data Structures: Best resources to learn Trees and Graphs",
+    title: "Android Expense Tracker - Professional Code Quality",
     content:
-      "Looking for recommendations on learning advanced data structures, especially trees and graphs. I want to prepare for coding interviews. What courses or books do you suggest?",
+      "YourCapstone delivered an awesome Android expense tracker app. Kotlin code is clean, Room database integration is perfect, and the UI is modern. Got my desired grade! Highly satisfied with the service.",
     author: {
       name: "Arjun Patel",
-      avatar: "/student-avatar-male-indian.jpg",
+      avatar: "https://i.pravatar.cc/150?img=14",
       reputation: 980,
     },
-    category: "Engineering",
-    tags: ["DSA", "Coding", "Interview"],
+    category: "Mobile App",
+    tags: ["Android", "Kotlin", "Room Database"],
     replies: 19,
     views: 298,
     likes: 24,
@@ -165,20 +165,20 @@ const discussions = [
 ]
 
 const categories = [
-  { id: "all", label: "All Discussions", count: discussions.length },
-  { id: "engineering", label: "Engineering", count: 3 },
-  { id: "medical", label: "Medical", count: 2 },
-  { id: "boards", label: "Board Exams", count: 1 },
-  { id: "government", label: "Govt Exams", count: 2 },
+  { id: "all", label: "All Testimonials", count: discussions.length },
+  { id: "web-development", label: "Web Development", count: 3 },
+  { id: "mobile-app", label: "Mobile Apps", count: 2 },
+  { id: "ml-ai", label: "ML/AI", count: 1 },
+  { id: "database", label: "Database", count: 2 },
 ]
 
 const trendingTags = [
-  { name: "JEE", count: 156 },
-  { name: "NEET", count: 134 },
-  { name: "UPSC", count: 98 },
-  { name: "Python", count: 87 },
-  { name: "DSA", count: 76 },
-  { name: "Physics", count: 65 },
+  { name: "React", count: 156 },
+  { name: "Python", count: 134 },
+  { name: "Node.js", count: 98 },
+  { name: "Java", count: 87 },
+  { name: "MySQL", count: 76 },
+  { name: "Machine Learning", count: 65 },
 ]
 
 export default function CommunityPage() {
@@ -217,16 +217,16 @@ export default function CommunityPage() {
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-neon-blue/10 border border-neon-blue/20 text-neon-blue text-sm font-medium mb-4">
               <Users className="w-4 h-4" />
-              <span>12,890+ Active Learners</span>
+              <span>300+ Happy Clients</span>
               <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-3 tracking-tight">
               <span className="bg-gradient-to-r from-neon-blue via-neon-purple to-neon-blue bg-clip-text text-transparent">
-                Community Forum
+                Client Testimonials
               </span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-xl">
-              Ask questions, share knowledge, and connect with fellow learners on their journey to success
+              See what our clients say about their capstone project experience with YourCapstone
             </p>
           </div>
           <Button
@@ -234,7 +234,7 @@ export default function CommunityPage() {
             className="bg-gradient-to-r from-neon-blue to-neon-purple hover:opacity-90 shadow-lg shadow-neon-blue/25 transition-all duration-300 hover:shadow-neon-blue/40 hover:scale-105 group"
           >
             <Plus className="w-4 h-4 mr-2 transition-transform group-hover:rotate-90" />
-            New Discussion
+            Share Review
           </Button>
         </div>
 
@@ -242,10 +242,10 @@ export default function CommunityPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-neon-blue/20 via-neon-purple/20 to-neon-blue/20 rounded-2xl blur-xl" />
           <div className="relative grid grid-cols-2 md:grid-cols-4 gap-4 p-2 glass rounded-2xl border border-white/10">
             {[
-              { icon: MessageCircle, label: "Discussions", value: "2,456", color: "neon-blue" },
-              { icon: Users, label: "Active Members", value: "12,890", color: "neon-purple" },
-              { icon: TrendingUp, label: "Topics Today", value: "156", color: "green-500" },
-              { icon: Clock, label: "Avg Response", value: "< 30 min", color: "amber-500" },
+              { icon: MessageCircle, label: "Reviews", value: "3,567", color: "neon-blue" },
+              { icon: Users, label: "Happy Clients", value: "300+", color: "neon-purple" },
+              { icon: TrendingUp, label: "Projects Done", value: "100+", color: "green-500" },
+              { icon: Clock, label: "Avg Delivery", value: "7-10 days", color: "amber-500" },
             ].map((stat, index) => {
               const Icon = stat.icon
               return (
@@ -287,7 +287,7 @@ export default function CommunityPage() {
                     <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground transition-colors group-focus-within:text-neon-blue" />
                     <Input
                       type="text"
-                      placeholder="Search discussions, topics, or tags..."
+                      placeholder="Search reviews, projects, or technologies..."
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
                       className="pl-12 h-12 bg-white/5 border-white/10 rounded-xl focus:border-neon-blue/50 focus:ring-2 focus:ring-neon-blue/20 transition-all"
@@ -306,14 +306,14 @@ export default function CommunityPage() {
 
             <Tabs defaultValue="latest" className="mb-6">
               <TabsList className="glass p-1.5 h-auto rounded-xl border border-white/10">
-                {["latest", "hot", "unanswered"].map((tab) => (
+                {["latest", "top-rated", "all-reviews"].map((tab) => (
                   <TabsTrigger
                     key={tab}
                     value={tab}
                     className="rounded-lg px-6 py-2.5 data-[state=active]:bg-gradient-to-r data-[state=active]:from-neon-blue/20 data-[state=active]:to-neon-purple/20 data-[state=active]:text-neon-blue transition-all capitalize"
                   >
-                    {tab === "hot" && <Zap className="w-4 h-4 mr-1.5" />}
-                    {tab}
+                    {tab === "top-rated" && <Zap className="w-4 h-4 mr-1.5" />}
+                    {tab.replace("-", " ")}
                   </TabsTrigger>
                 ))}
               </TabsList>

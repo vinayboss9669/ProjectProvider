@@ -2,29 +2,29 @@
     <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Animated decorative line divider" width="600">
   </div>
 
-<div align="center"><img src="EduLinkUpLogo.jpg" alt="EduLinkUp Logo" style="width: 220px; height: 220px;" /></div>
+<div align="center"><img src="https://via.placeholder.com/220x220/6366f1/ffffff?text=YourCapstone" alt="YourCapstone Logo" style="width: 220px; height: 220px;" /></div>
 
-# <div align="center">EduLinkUp</div>
+# <div align="center">YourCapstone</div>
 
   <div align="center">
     <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Animated decorative line divider" width="600">
   </div>
 
-## 🎓 Your Next-Generation Educational Platform
+## 🎓 Your Trusted Academic Project Partner
 
-**EduLinkUp** is a modern, feature-rich educational platform designed specifically for Indian students preparing for competitive examinations, board exams, and skill development. Built with cutting-edge web technologies, it provides an immersive learning experience with a glassmorphic UI, dark mode support, and comprehensive course management. It offers 24/7 access to courses, interactive community discussions, personalised learning paths, and AI-powered features to enhance the educational journey.
+**YourCapstone** is a professional project development service designed specifically for students who need high-quality academic projects, final year capstone projects, and assignments delivered on time with complete documentation. Built with cutting-edge web technologies, it provides an immersive learning experience with a glassmorphic UI, dark mode support, and comprehensive course management. It offers 24/7 access to courses, interactive community discussions, personalised learning paths, and AI-powered features to enhance the educational journey.
 
 ---
 
-### Vision: Empowering Indian Students Through Technology
+### Vision: Empowering Students Through Quality Project Development
 
-Education is the cornerstone of personal and societal development, enabling individuals to unlock their potential, pursue their dreams, and contribute meaningfully to their communities. In India's rapidly evolving educational landscape, students face immense pressure from competitive examinations like JEE, NEET, UPSC, and board exams, while also seeking to develop practical skills for the modern workforce.
+Academic excellence requires not just knowledge but also the ability to deliver quality projects that meet stringent requirements. Students across India face challenges in completing their final year projects, capstone assignments, and technical work due to time constraints, technical complexity, or lack of resources.
 
-The vision for EduLinkUp is to democratize access to quality education by providing a comprehensive, technology-driven platform that addresses the diverse learning needs of Indian students. We believe that every student deserves access to world-class educational resources, expert guidance, and a supportive community—regardless of their geographic location or economic background. EduLinkUp is more than just a learning platform; it is a holistic educational ecosystem designed to transform the way students learn, collaborate, and succeed.
+The vision for YourCapstone is to provide a reliable, professional service that delivers custom-made academic projects with complete source code, documentation, and support. We help students succeed in their academic journey by handling the technical implementation while they focus on understanding and presenting their work. We believe that every student deserves access to world-class educational resources, expert guidance, and a supportive community—regardless of their geographic location or economic background. EduLinkUp is more than just a learning platform; it is a holistic educational ecosystem designed to transform the way students learn, collaborate, and succeed.
 
-#### The EduLinkUp Difference
+#### The YourCapstone Difference
 
-* **Comprehensive Multi-Category Learning**: From engineering and medical entrance exams to government competitive exams and board preparations, EduLinkUp covers the complete spectrum of Indian education. Students can access courses tailored to JEE, NEET, UPSC, SSC, Banking exams, and CBSE/State Board curricula—all in one place. This eliminates the need to juggle multiple platforms and provides a unified learning experience.
+* **Comprehensive Project Services**: From web development and mobile apps to ML/AI and database projects, YourCapstone covers all types of academic project requirements. Students can access courses tailored to JEE, NEET, UPSC, SSC, Banking exams, and CBSE/State Board curricula—all in one place. This eliminates the need to juggle multiple platforms and provides a unified learning experience.
 
 * **Interactive Community-Driven Learning**: Learning is not just about consuming content; it's about engaging with peers, asking questions, and sharing knowledge. Our community forum creates a vibrant space where students can discuss complex topics, share study strategies, and support each other's learning journeys. The rich text editor with code syntax highlighting makes it perfect for technical discussions, while the reputation system encourages quality contributions.
 
@@ -38,8 +38,8 @@ In essence, EduLinkUp aims to bridge the gap between traditional education and m
 
 ## Live Demo
 
-Experience EduLinkUp live here: 
-👉 [![**EduLinkUp**](https://img.shields.io/badge/View-Live%20Demo-magenta?style=for-the-badge)](https://your-edulinkup.vercel.app/)
+Experience YourCapstone live here: 
+👉 [![**YourCapstone**](https://img.shields.io/badge/View-Live%20Demo-magenta?style=for-the-badge)](https://your-capstone.vercel.app/)
 
  <div align="center">
  <p>

@@ -4,75 +4,75 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 const values = [
   {
     icon: Heart,
-    title: "Passion for Learning",
-    description: "We believe everyone deserves access to quality education, regardless of their background.",
+    title: "Quality First",
+    description: "Har project tested aur verified. Quality code with proper documentation guarantee.",
     color: "from-pink-500 to-rose-500",
     shadowColor: "shadow-pink-500/20",
   },
   {
     icon: Users,
-    title: "Community First",
-    description: "Learning is better together. We foster a supportive community of learners and educators.",
+    title: "Student-Friendly",
+    description: "Affordable prices, clear communication. Student ki zaroorat ko samajhte hain.",
     color: "from-neon-blue to-cyan-400",
     shadowColor: "shadow-neon-blue/20",
   },
   {
     icon: Lightbulb,
-    title: "Innovation",
-    description: "We constantly evolve our platform to deliver the best learning experience possible.",
+    title: "On-Time Delivery",
+    description: "Deadline humesha meet karte hain. No delays, no excuses - guaranteed delivery.",
     color: "from-amber-400 to-orange-500",
     shadowColor: "shadow-amber-500/20",
   },
   {
     icon: Globe,
-    title: "Accessibility",
-    description: "Education should be accessible to all. We strive to remove barriers to learning.",
+    title: "24/7 Support",
+    description: "Kabhi bhi help chahiye, hum available hain. Round-the-clock assistance.",
     color: "from-neon-purple to-violet-500",
     shadowColor: "shadow-neon-purple/20",
   },
 ]
 
 const stats = [
-  { value: "50,000+", label: "Active Learners", icon: Users },
-  { value: "500+", label: "Expert Instructors", icon: Sparkles },
-  { value: "1,000+", label: "Courses", icon: Target },
-  { value: "95%", label: "Success Rate", icon: TrendingUp },
+  { value: "50+", label: "Happy Students", icon: Users },
+  { value: "25+", label: "Expert Developers", icon: Sparkles },
+  { value: "300+", label: "Projects Delivered", icon: Target },
+  { value: "98%", label: "Satisfaction Rate", icon: TrendingUp },
 ]
 
 const team = [
   {
-    name: "Sagnik Chakraborty",
-    role: "Founder & CEO",
-    avatar: "/professional-man-founder-ceo.jpg",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec metus nec ante feugiat placerat.",
-    linkedin: "https://www.linkedin.com/in/sagnik-chakraborty-2004/",
+    name: "Rahul Sharma",
+    role: "Founder & Lead Developer",
+    avatar: "https://i.pravatar.cc/150?img=12",
+    bio: "Full-stack developer with 8+ years experience. Specializes in React, Node.js, and ML/AI projects. Delivered 1,000+ successful capstone projects.",
+    linkedin: "#",
   },
   {
-    name: "Kavlin Kaur",
-    role: "Head of Content",
-    avatar: "/professional-woman-content-head.jpg",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec metus nec ante feugiat placerat.",
-    linkedin: "https://www.linkedin.com/in/kavlinkaur/",
+    name: "Priya Verma",
+    role: "Mobile App Lead",
+    avatar: "https://i.pravatar.cc/150?img=45",
+    bio: "Expert in React Native and Flutter development. Has completed 500+ mobile app projects for students across India with 100% success rate.",
+    linkedin: "#",
   },
   {
-    name: "Rupam",
-    role: "Community Lead",
-    avatar: "/professional-man-community-lead.jpg",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec metus nec ante feugiat placerat.",
-    linkedin: "https://www.linkedin.com/in/rupam-bera-8ab533213/",
+    name: "Amit Kumar",
+    role: "ML/AI Specialist",
+    avatar: "https://i.pravatar.cc/150?img=33",
+    bio: "Machine Learning engineer with expertise in Python, TensorFlow, and OpenCV. Helps students build industry-grade AI/ML capstone projects.",
+    linkedin: "#",
   },
   {
-    name: "Akshay Kumar",
-    role: "Developer",
-    avatar: "/professional-man-developer.png",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec metus nec ante feugiat placerat.",
-    linkedin: "https://www.linkedin.com/in/akshay-kumar-309421269/",
+    name: "Neha Gupta",
+    role: "Database Expert",
+    avatar: "https://i.pravatar.cc/150?img=26",
+    bio: "Database architect specializing in MySQL, PostgreSQL, and MongoDB. Delivers robust database projects with proper normalization and optimization.",
+    linkedin: "#",
   },
 ]
 
 const milestones = [
-  { year: "2024", title: "EduLinkUp Founded", description: "Introducing personalized learning paths" },
-  { year: "2025", title: "EduLinkUp Website", description: "Website of EduLinkUp" },
+  { year: "2024", title: "YourCapstone Founded", description: "Launched capstone project delivery service" },
+  { year: "2025", title: "YourCapstone Website", description: "Official website launch with 300+ clients" },
 ]
 
 export default function AboutPage() {
@@ -95,14 +95,13 @@ export default function AboutPage() {
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass border border-white/10 mb-6">
               <Sparkles className="w-4 h-4 text-neon-purple" />
-              <span className="text-sm text-muted-foreground">Transforming Education Since 2024</span>
+              <span className="text-sm text-muted-foreground">Your Trusted Capstone Partner Since 2024</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">
-              About <span className="gradient-text">EduLinkUp</span>
+              About <span className="gradient-text">YourCapstone</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              We're on a mission to make quality education accessible to everyone. Our platform connects learners with
-              expert educators and a supportive community.
+              Humara mission hai har student ko quality capstone and academic projects provide karna. Expert developers ka team jo aapke projects ko reality mein laata hai with complete documentation.
             </p>
             <div className="flex items-center justify-center gap-2">
               <div className="h-px w-16 bg-gradient-to-r from-transparent to-neon-blue/50" />
@@ -123,16 +122,13 @@ export default function AboutPage() {
                 <span className="text-sm text-muted-foreground">Our Mission</span>
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 tracking-tight">
-                Empowering the Next Generation of <span className="gradient-text">Learners</span>
+                Making Capstone Projects <span className="gradient-text">Simple & Affordable</span>
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                At EduLinkUp, we believe that education is the key to unlocking human potential. We've built a platform
-                that combines high-quality content, expert instruction, and community support to help students achieve
-                their dreams.
+                YourCapstone mein, hum samajhte hain ki students ko capstone and final year projects mein kaafi challenges face karni padti hain - tight deadlines, complex requirements, ya technical expertise ki kami. Isliye humne ye professional service start ki jo students ki journey ko smooth banata hai.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Whether you're preparing for competitive exams, learning to code, or exploring new subjects, EduLinkUp
-                provides the resources and support you need to succeed.
+                Chahe web development capstone ho, mobile app project, ML/AI implementation, ya database management system - humara expert team har type ke academic projects deliver karta hai with industry-standard code, complete documentation, aur presentation support. Quality, affordability, aur guaranteed on-time delivery humare core values hain.
               </p>
             </div>
             <div className="relative group">
@@ -173,7 +169,7 @@ export default function AboutPage() {
               Our <span className="gradient-text">Values</span>
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              These core principles guide everything we do at EduLinkUp
+              These core principles guide everything we do at YourCapstone
             </p>
           </div>
 
@@ -258,7 +254,7 @@ export default function AboutPage() {
               Our <span className="gradient-text">Leadership</span>
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              The driving force behind EduLinkUp's mission to revolutionize education.
+              The driving force behind YourCapstone's mission to revolutionize capstone project delivery.
             </p>
           </div>
 
@@ -316,24 +312,24 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">
-                  Ready to Start Your <span className="gradient-text">Learning Journey</span>?
+                  Need a Perfect <span className="gradient-text">Capstone Project</span>?
                 </h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
-                  Join thousands of learners who are already transforming their lives through education.
+                  Apna capstone project abhi order karo aur worry-free semester enjoy karo. 300+ students already delivered quality projects with complete documentation and source code.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                   <a
                     href="/courses"
                     className="group/btn inline-flex items-center gap-2 px-8 py-3 rounded-xl bg-gradient-to-r from-neon-blue to-neon-purple text-white font-medium hover:opacity-90 transition-all duration-300 hover:shadow-lg hover:shadow-neon-purple/25"
                   >
-                    Explore Courses
+                    Browse Projects
                     <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
                   </a>
                   <a
-                    href="/community"
+                    href="/contact"
                     className="px-8 py-3 rounded-xl glass border border-white/10 text-foreground font-medium hover:bg-white/5 hover:border-white/20 transition-all duration-300"
                   >
-                    Join Community
+                    Get Free Quote
                   </a>
                 </div>
               </div>

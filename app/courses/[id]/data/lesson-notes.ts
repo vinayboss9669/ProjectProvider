@@ -24,8 +24,8 @@ Python is a high-level, interpreted programming language known for its simplicit
 print("Hello, World!")
 
 # Variables
-name = "EduLinkUp"
-students = 50000
+name = "YourCapstone"
+students = 3500
 
 # Simple calculation
 result = 10 + 20
@@ -139,11 +139,11 @@ multiline = """This is a
 multi-line string"""
 
 # Indexing and slicing
-text = "EduLinkUp"
-print(text[0])      # 'E'
-print(text[-1])     # 'p'
-print(text[0:3])    # 'Edu'
-print(text[3:])     # 'LinkUp'
+text = "YourCapstone"
+print(text[0])      # 'Y'
+print(text[-1])     # 'e'
+print(text[0:4])    # 'Your'
+print(text[4:])     # 'Capstone'
 
 # String methods
 greeting = "  hello world  "

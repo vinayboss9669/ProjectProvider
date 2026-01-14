@@ -44,7 +44,7 @@ export function CourseContent({ topics }: CourseContentProps) {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">{topic.title}</h4>
-                  <p className="text-xs text-muted-foreground">{topic.items.length} lessons</p>
+                  <p className="text-xs text-muted-foreground">{topic.items.length} modules</p>
                 </div>
               </div>
               <ChevronDown

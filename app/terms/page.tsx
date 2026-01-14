@@ -20,22 +20,20 @@ export default function TermsPage() {
                     <section>
                         <h2 className="text-2xl font-semibold text-foreground mb-4">1. Agreement to Terms</h2>
                         <p className="text-muted-foreground">
-                            By accessing or using EduLinkUp, you agree to be bound by these Terms of Service and all applicable laws
-                            and regulations. If you do not agree with any of these terms, you are prohibited from using or accessing
-                            this site.
+                            By using YourCapstone's capstone and academic project development services, you agree to be bound by these Terms of Service. These terms govern the delivery of projects, payment terms, intellectual property rights, and support services.
                         </p>
                     </section>
 
                     <section>
                         <h2 className="text-2xl font-semibold text-foreground mb-4">2. Use License</h2>
                         <p className="text-muted-foreground mb-4">
-                            Permission is granted to temporarily access the materials on EduLinkUp for personal, non-commercial use
+                            Permission is granted to temporarily access the materials on YourCapstone for personal, non-commercial use
                             only. This is the grant of a license, not a transfer of title, and under this license you may not:
                         </p>
                         <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
                             <li>Modify or copy the materials</li>
                             <li>Use the materials for any commercial purpose or public display</li>
-                            <li>Attempt to decompile or reverse engineer any software contained on EduLinkUp</li>
+                            <li>Attempt to decompile or reverse engineer any software contained on YourCapstone</li>
                             <li>Remove any copyright or other proprietary notations from the materials</li>
                             <li>Transfer the materials to another person or "mirror" the materials on any other server</li>
                         </ul>
@@ -53,11 +51,9 @@ export default function TermsPage() {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold text-foreground mb-4">4. Educational Content</h2>
+                        <h2 className="text-2xl font-semibold text-foreground mb-4">4. Service Description</h2>
                         <p className="text-muted-foreground">
-                            All educational content provided on EduLinkUp is for informational and educational purposes only. We do
-                            not guarantee any specific results from using our courses or materials. Your success depends on your own
-                            effort, motivation, and circumstances.
+                            YourCapstone provides professional capstone and academic project development services to students. We deliver custom-made projects with complete source code, comprehensive documentation, and presentation materials. Project delivery timeline depends on complexity and will be clearly communicated upfront. Payment terms: 50% advance to start, 50% upon successful completion.
                         </p>
                     </section>
 
@@ -77,8 +73,7 @@ export default function TermsPage() {
                     <section>
                         <h2 className="text-2xl font-semibold text-foreground mb-4">6. Intellectual Property</h2>
                         <p className="text-muted-foreground">
-                            The service and its original content, features, and functionality are owned by EduLinkUp and are protected
-                            by international copyright, trademark, patent, trade secret, and other intellectual property laws.
+                            Upon full payment, complete ownership of the delivered capstone project (source code, documentation, and all related materials) is transferred to the client. YourCapstone retains the right to use anonymized project examples for portfolio and demonstration purposes only, with no client-identifying information.
                         </p>
                     </section>
 
@@ -94,7 +89,7 @@ export default function TermsPage() {
                     <section>
                         <h2 className="text-2xl font-semibold text-foreground mb-4">8. Limitation of Liability</h2>
                         <p className="text-muted-foreground">
-                            In no event shall EduLinkUp, nor its directors, employees, partners, agents, suppliers, or affiliates, be
+                            In no event shall YourCapstone, nor its directors, employees, partners, agents, suppliers, or affiliates, be
                             liable for any indirect, incidental, special, consequential or punitive damages, including without
                             limitation, loss of profits, data, use, goodwill, or other intangible losses.
                         </p>
@@ -113,8 +108,8 @@ export default function TermsPage() {
                         <h2 className="text-2xl font-semibold text-foreground mb-4">10. Contact Information</h2>
                         <p className="text-muted-foreground">
                             If you have any questions about these Terms, please contact us at:{" "}
-                            <a href="mailto:legal@edulinkup.com" className="text-neon-blue hover:underline">
-                                legal@edulinkup.com
+                            <a href="mailto:legal@yourcapstone.com" className="text-neon-blue hover:underline">
+                                legal@yourcapstone.com
                             </a>
                         </p>
                     </section>

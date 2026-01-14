@@ -6,20 +6,20 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 const communityFeatures = [
   {
     icon: MessageCircle,
-    title: "Discussion Forums",
-    description: "Ask questions, share knowledge, and learn from peers.",
+    title: "Expert Developers",
+    description: "Skilled professionals ready to handle your projects with quality code.",
     color: "neon-blue",
   },
   {
     icon: Users,
-    title: "Study Groups",
-    description: "Join or create study groups for collaborative learning.",
+    title: "On-Time Delivery",
+    description: "Guaranteed delivery before deadline. No delays, no excuses.",
     color: "neon-purple",
   },
   {
     icon: Lightbulb,
-    title: "Expert Guidance",
-    description: "Get your doubts cleared by experienced mentors.",
+    title: "24/7 Support",
+    description: "Round-the-clock assistance. Apke sawal ka jawab humesha ready.",
     color: "neon-blue",
   },
 ]
@@ -27,29 +27,29 @@ const communityFeatures = [
 const recentDiscussions = [
   {
     id: "1",
-    title: "Best approach for solving JEE Advanced Calculus problems?",
+    title: "Amazing work! Got my capstone project delivered before deadline with complete docs!",
     author: "Rahul M.",
-    avatar: "/male-student-avatar.png",
-    replies: 24,
-    category: "Engineering",
+    avatar: "https://i.pravatar.cc/150?img=12",
+    replies: "Web Development",
+    category: "⭐⭐⭐⭐⭐",
     hot: true,
   },
   {
     id: "2",
-    title: "NEET Biology: Cell Division conceptual doubts",
+    title: "The ML project exceeded my expectations. Very professional team!",
     author: "Priya S.",
-    avatar: "/female-student-avatar.png",
-    replies: 18,
-    category: "Medical",
+    avatar: "https://i.pravatar.cc/150?img=25",
+    replies: "ML/AI Project",
+    category: "⭐⭐⭐⭐⭐",
     hot: false,
   },
   {
     id: "3",
-    title: "UPSC Prelims 2024: Important current affairs topics",
+    title: "Perfect Android app with all features working smoothly. Highly recommended!",
     author: "Amit K.",
-    avatar: "/student-avatar-male-indian.jpg",
-    replies: 45,
-    category: "Government",
+    avatar: "https://i.pravatar.cc/150?img=33",
+    replies: "Mobile App",
+    category: "⭐⭐⭐⭐⭐",
     hot: true,
   },
 ]
@@ -67,7 +67,7 @@ export function CommunitySection() {
         <div className="flex justify-center mb-4">
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-neon-blue/10 to-neon-purple/10 border border-neon-blue/20 text-sm text-neon-blue">
             <Users className="w-4 h-4" />
-            50,000+ Active Members
+            50+ Happy Students
           </span>
         </div>
 
@@ -75,10 +75,10 @@ export function CommunitySection() {
           {/* Left Content */}
           <div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 tracking-tight">
-              Join Our <span className="gradient-text">Student Network</span>
+              Why Choose <span className="gradient-text">YourCapstone</span>
             </h2>
             <p className="text-muted-foreground mb-8 text-lg leading-relaxed">
-              Connect with fellow learners, share resources, and grow together. Collaboration is at the heart of EduLinkUp.
+              Join dozens of students who trusted us for their academic projects. Quality work, on-time delivery, affordable prices.
             </p>
 
             <div className="space-y-4 mb-8">
@@ -190,7 +190,7 @@ export function CommunitySection() {
               <div className="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-sm text-muted-foreground">
                 <span className="flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                  1,234 online now
+                  1,24 online now
                 </span>
                 <span>2,500+ discussions this week</span>
               </div>

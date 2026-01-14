@@ -3,7 +3,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Updated to dark theme with neon blue/purple accents for EduLinkUp */
+/* Updated to dark theme with neon blue/purple accents for YourCapstone */
 :root {
   --background: oklch(0.07 0.01 270);
   --foreground: oklch(0.98 0 0);
@@ -76,7 +76,7 @@
 }
 
 @theme inline {
-  /* Updated font to Inter for EduLinkUp */
+  /* Updated font to Inter for YourCapstone */
   --font-sans: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
   --color-background: var(--background);
@@ -116,7 +116,7 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
 
-  /* Custom neon colors for EduLinkUp */
+  /* Custom neon colors for YourCapstone */
   --color-neon-blue: #3b82f6;
   --color-neon-purple: #8b5cf6;
   --color-neon-cyan: #06b6d4;
@@ -139,7 +139,7 @@
   }
 }
 
-/* Custom utility classes for EduLinkUp glassmorphism and effects */
+/* Custom utility classes for YourCapstone glassmorphism and effects */
 @layer utilities {
   .glass {
     background: var(--color-glass);

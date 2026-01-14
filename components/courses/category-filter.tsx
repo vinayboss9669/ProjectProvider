@@ -2,7 +2,7 @@
 
 import type React from "react"
 
-import { Cpu, Stethoscope, GraduationCap, Landmark, LayoutGrid } from "lucide-react"
+import { Cpu, Smartphone, Brain, Database, LayoutGrid } from "lucide-react"
 
 interface Category {
   id: string
@@ -19,10 +19,10 @@ interface CategoryFilterProps {
 
 const categoryIcons: Record<string, React.ElementType> = {
   all: LayoutGrid,
-  engineering: Cpu,
-  medical: Stethoscope,
-  boards: GraduationCap,
-  government: Landmark,
+  "web-development": Cpu,
+  "mobile-app": Smartphone,
+  "ml-ai": Brain,
+  database: Database,
 }
 
 export function CategoryFilter({ categories, selectedCategory, onSelectCategory }: CategoryFilterProps) {

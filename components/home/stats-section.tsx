@@ -5,43 +5,43 @@ import { Users, BookOpen, Video, Award, TrendingUp } from "lucide-react"
 const stats = [
   {
     icon: Users,
-    value: "50,000+",
-    label: "Active Learners",
+    value: "10+",
+    label: "Happy Students",
     color: "text-neon-blue",
     bgColor: "bg-neon-blue/10",
     glowColor: "shadow-neon-blue/20",
     borderColor: "group-hover:border-neon-blue/50",
-    trend: "+12% this month",
+    trend: "Pan India",
   },
   {
     icon: BookOpen,
-    value: "500+",
-    label: "Courses Available",
+    value: "15+",
+    label: "Projects Delivered",
     color: "text-neon-purple",
     bgColor: "bg-neon-purple/10",
     glowColor: "shadow-neon-purple/20",
     borderColor: "group-hover:border-neon-purple/50",
-    trend: "+24 new courses",
+    trend: "All Technologies",
   },
   {
     icon: Video,
-    value: "10,000+",
-    label: "Video Lessons",
+    value: "20+",
+    label: "Expert Developers",
     color: "text-neon-cyan",
     bgColor: "bg-neon-cyan/10",
     glowColor: "shadow-neon-cyan/20",
     borderColor: "group-hover:border-neon-cyan/50",
-    trend: "HD Quality",
+    trend: "Experienced Team",
   },
   {
     icon: Award,
-    value: "95%",
-    label: "Success Rate",
+    value: "98%",
+    label: "Satisfaction Rate",
     color: "text-green-400",
     bgColor: "bg-green-400/10",
     glowColor: "shadow-green-400/20",
     borderColor: "group-hover:border-green-400/50",
-    trend: "Industry leading",
+    trend: "5-Star Reviews",
   },
 ]
 
@@ -60,13 +60,13 @@ export function StatsSection() {
             <span className="text-sm text-muted-foreground">Our Impact</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Trusted by Thousands of{" "}
+            Trusted by Students{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-blue to-neon-purple">
-              Learners
+              Across India
             </span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Join our growing network of students achieving their learning goals every day
+            Delivering quality academic projects with complete satisfaction guaranteed
           </p>
         </div>
 

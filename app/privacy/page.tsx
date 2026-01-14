@@ -20,9 +20,8 @@ export default function PrivacyPage() {
                     <section>
                         <h2 className="text-2xl font-semibold text-foreground mb-4">1. Introduction</h2>
                         <p className="text-muted-foreground">
-                            Welcome to EduLinkUp. We respect your privacy and are committed to protecting your personal data. This
-                            privacy policy will inform you about how we look after your personal data when you visit our website and
-                            tell you about your privacy rights.
+                            Welcome to YourCapstone. We respect your privacy and are committed to protecting your personal data. This
+                            privacy policy explains how we handle your information when you use our capstone and academic project development services.
                         </p>
                     </section>
 
@@ -42,12 +41,12 @@ export default function PrivacyPage() {
                         <h2 className="text-2xl font-semibold text-foreground mb-4">3. How We Use Your Information</h2>
                         <p className="text-muted-foreground mb-4">We use your personal data for the following purposes:</p>
                         <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
-                            <li>To provide and maintain our educational services</li>
-                            <li>To notify you about changes to our service</li>
-                            <li>To provide customer support</li>
-                            <li>To gather analysis or valuable information to improve our service</li>
-                            <li>To monitor the usage of our service</li>
-                            <li>To detect, prevent and address technical issues</li>
+                            <li>To deliver your academic project as per requirements</li>
+                            <li>To communicate about project progress and updates</li>
+                            <li>To provide customer support and respond to queries</li>
+                            <li>To process payments securely</li>
+                            <li>To improve our service quality</li>
+                            <li>To send project-related documents and files</li>
                         </ul>
                     </section>
 
@@ -96,8 +95,8 @@ export default function PrivacyPage() {
                         <h2 className="text-2xl font-semibold text-foreground mb-4">8. Contact Us</h2>
                         <p className="text-muted-foreground">
                             If you have any questions about this Privacy Policy, please contact us at:{" "}
-                            <a href="mailto:privacy@edulinkup.com" className="text-neon-blue hover:underline">
-                                privacy@edulinkup.com
+                            <a href="mailto:privacy@yourcapstone.com" className="text-neon-blue hover:underline">
+                                privacy@yourcapstone.com
                             </a>
                         </p>
                     </section>

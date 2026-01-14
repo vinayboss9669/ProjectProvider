@@ -6,57 +6,57 @@ import { Badge } from "@/components/ui/badge"
 const featuredCourses = [
   {
     id: "1",
-    title: "Complete Python Programming",
-    description: "Master Python from basics to advanced. Build real-world projects and land your dream job.",
-    thumbnail: "/python-programming-code-dark.jpg",
-    category: "Engineering",
+    title: "E-Commerce Shopping Platform",
+    description: "Full-featured online store with cart, payments, admin dashboard, and order tracking system.",
+    thumbnail: "https://images.unsplash.com/photo-1557821552-17105176677c?w=600&h=400&fit=crop",
+    category: "Web Development",
     rating: 4.9,
-    students: 12500,
-    duration: "45 hours",
-    instructor: "Dr. Anjali Gupta",
-    price: "Free",
+    students: "React.js + Node.js + MongoDB",
+    duration: "7-10 days delivery",
+    instructor: "Full Stack",
+    price: "₹4,999",
     badge: "Bestseller",
     badgeColor: "from-amber-500 to-orange-500",
   },
   {
     id: "2",
-    title: "NEET Biology Complete Course",
-    description: "Comprehensive NEET biology preparation with detailed explanations and practice tests.",
-    thumbnail: "/biology-medical-science-dark.jpg",
-    category: "Medical",
+    title: "College Management System",
+    description: "Complete student, faculty, attendance management with automated report generation and analytics.",
+    thumbnail: "https://www.campusmedicine.com/blog/wp-content/uploads/2017/11/College-Management-Systems.jpg",
+    category: "Web Development",
     rating: 4.8,
-    students: 8900,
-    duration: "60 hours",
-    instructor: "Dr. Amit Verma",
-    price: "Free",
+    students: "PHP + MySQL + Bootstrap",
+    duration: "10-12 days delivery",
+    instructor: "Full Stack",
+    price: "₹3,999",
     badge: "Popular",
     badgeColor: "from-neon-blue to-cyan-400",
   },
   {
     id: "3",
-    title: "UPSC Complete Foundation",
-    description: "Start your UPSC journey with our comprehensive foundation course covering all subjects.",
-    thumbnail: "/india-government-building-dark.jpg",
-    category: "Government",
+    title: "AI Face Recognition Attendance",
+    description: "Smart attendance system using facial recognition with real-time detection and reporting.",
+    thumbnail: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=600&h=400&fit=crop",
+    category: "ML/AI",
     rating: 4.9,
-    students: 15600,
-    duration: "100 hours",
-    instructor: "IAS Priya Sharma",
-    price: "Free",
+    students: "Python + OpenCV + TensorFlow",
+    duration: "8-10 days delivery",
+    instructor: "Machine Learning",
+    price: "₹6,499",
     badge: "Top Rated",
     badgeColor: "from-neon-purple to-pink-500",
   },
   {
     id: "4",
-    title: "JEE Mathematics Masterclass",
-    description: "Crack JEE Mains and Advanced with our expert-led mathematics course.",
-    thumbnail: "/mathematics-equations-formulas-dark.jpg",
-    category: "Engineering",
+    title: "Real-Time Chat Application",
+    description: "WhatsApp-style messaging with group chats, media sharing, status updates, and notifications.",
+    thumbnail: "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=600&h=400&fit=crop",
+    category: "Mobile App",
     rating: 4.7,
-    students: 11200,
-    duration: "80 hours",
-    instructor: "Prof. Raj Kumar",
-    price: "Free",
+    students: "React Native + Firebase",
+    duration: "12-14 days delivery",
+    instructor: "Mobile Dev",
+    price: "₹7,999",
     badge: "New",
     badgeColor: "from-emerald-500 to-teal-400",
   },
@@ -74,13 +74,13 @@ export function FeaturedCourses() {
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-neon-blue/10 to-neon-purple/10 border border-neon-blue/20 mb-4">
               <Sparkles className="w-4 h-4 text-neon-blue" />
-              <span className="text-sm font-medium text-neon-blue">Curated for You</span>
+              <span className="text-sm font-medium text-neon-blue">Recently Completed</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-3 tracking-tight">
-              <span className="gradient-text">Featured Courses</span>
+              <span className="gradient-text">Sample Projects</span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-md">
-              Hand-picked courses to kickstart your learning journey
+              Real projects delivered to students across India
             </p>
           </div>
           <Link href="/courses">
@@ -88,7 +88,7 @@ export function FeaturedCourses() {
               variant="outline"
               className="hidden md:flex border-neon-blue/30 hover:bg-neon-blue/10 hover:border-neon-blue/50 bg-transparent transition-all duration-300 group"
             >
-              View All Courses
+              View All Projects
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
           </Link>

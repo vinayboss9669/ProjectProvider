@@ -45,15 +45,15 @@ export function HeroSection() {
               <span className="relative inline-flex rounded-full h-2 w-2 bg-neon-purple"></span>
             </span>
             <Sparkles className="w-4 h-4 text-neon-purple" />
-            <span className="text-sm font-medium text-foreground/90">Join 50,000+ learners worldwide</span>
+            <span className="text-sm font-medium text-foreground/90">Trusted by 50+ students across India</span>
           </div>
 
           {/* Main Heading */}
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-8 animate-slide-up tracking-tight">
-            <span className="text-foreground text-balance">Learn. Connect.</span>
+            <span className="text-foreground text-balance">Get Your Academic Projects</span>
             <br />
             <span className="gradient-text relative">
-              Grow Together.
+              Done by Experts
               <svg
                 className="absolute -bottom-2 left-0 w-full"
                 viewBox="0 0 300 12"
@@ -78,8 +78,7 @@ export function HeroSection() {
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto mb-12 animate-slide-up text-balance leading-relaxed">
-            Your gateway to quality education in Engineering, Medical, Board Exams, and Government Exam preparation.
-            Join our thriving ecosystem of learners.
+            Professional project development service for students. Web, Mobile, ML/AI, Database projects with complete source code and documentation. Affordable prices, guaranteed delivery.
           </p>
 
           {/* Floating Search Bar */}
@@ -90,7 +89,7 @@ export function HeroSection() {
                   <Search className="w-5 h-5 text-neon-blue" />
                   <Input
                     type="text"
-                    placeholder="Search courses, topics, or resources..."
+                    placeholder="Search for project type, technology, or service..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     className="flex-1 bg-transparent border-none text-foreground placeholder:text-muted-foreground focus-visible:ring-0 focus-visible:ring-offset-0 text-base"
@@ -103,7 +102,7 @@ export function HeroSection() {
             </div>
             <div className="flex flex-wrap items-center justify-center gap-2 mt-5 text-sm text-muted-foreground">
               <span className="text-foreground/60">Popular:</span>
-              {["Python", "JEE", "NEET", "UPSC", "DSA"].map((tag) => (
+              {["Web Dev", "Android App", "ML/AI", "Python", "React"].map((tag) => (
                 <button
                   key={tag}
                   className="px-4 py-1.5 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:text-neon-blue hover:border-neon-blue/30 transition-all duration-300"
@@ -116,31 +115,33 @@ export function HeroSection() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 animate-slide-up">
-            <Link href="/courses">
+            <Link href="/contact">
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-neon-blue to-neon-purple hover:opacity-90 px-10 py-7 text-lg glow-blue hover-glow rounded-xl font-semibold shadow-xl shadow-neon-blue/20 transition-all hover:scale-[1.02] hover:shadow-neon-blue/30"
               >
-                Explore Courses
+                Request Your Project
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
             </Link>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-white/20 hover:bg-white/5 hover:border-white/30 px-10 py-7 text-lg bg-transparent rounded-xl font-semibold transition-all hover:scale-[1.02]"
-            >
-              <Play className="w-5 h-5 mr-2 text-neon-purple" />
-              Watch Demo
-            </Button>
+            <Link href="/courses">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-white/20 hover:bg-white/5 hover:border-white/30 px-10 py-7 text-lg bg-transparent rounded-xl font-semibold transition-all hover:scale-[1.02]"
+              >
+                <Play className="w-5 h-5 mr-2 text-neon-purple" />
+                View Our Services
+              </Button>
+            </Link>
           </div>
 
           {/* Stats Row */}
           <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 animate-slide-up">
             {[
-              { icon: Users, label: "Active Learners", value: "50K+" },
-              { icon: BookOpen, label: "Courses", value: "500+" },
-              { icon: Award, label: "Success Rate", value: "94%" },
+              { icon: Users, label: "Happy Students", value: "50+" },
+              { icon: BookOpen, label: "Projects Delivered", value: "45+" },
+              { icon: Award, label: "Satisfaction Rate", value: "98%" },
             ].map((stat, index) => (
               <div key={index} className="flex items-center gap-3 group">
                 <div className="p-3 rounded-xl glass border border-white/10 group-hover:border-neon-blue/30 transition-colors">

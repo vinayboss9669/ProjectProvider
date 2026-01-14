@@ -14,6 +14,7 @@ interface Course {
   lessons: number
   instructor: string
   level: string
+  price?: number
   comingSoon?: boolean
 }
 
@@ -23,17 +24,17 @@ interface CourseCardProps {
 }
 
 const categoryColors: Record<string, string> = {
-  engineering: "bg-blue-500/10 text-blue-400",
-  medical: "bg-green-500/10 text-green-400",
-  boards: "bg-purple-500/10 text-purple-400",
-  government: "bg-orange-500/10 text-orange-400",
+  "web-development": "bg-blue-500/10 text-blue-400",
+  "mobile-app": "bg-green-500/10 text-green-400",
+  "ml-ai": "bg-purple-500/10 text-purple-400",
+  database: "bg-orange-500/10 text-orange-400",
 }
 
 const categoryLabels: Record<string, string> = {
-  engineering: "Engineering",
-  medical: "Medical",
-  boards: "Boards",
-  government: "Govt Exams",
+  "web-development": "Web Development",
+  "mobile-app": "Mobile App",
+  "ml-ai": "ML/AI",
+  database: "Database",
 }
 
 export function CourseCard({ course, viewMode }: CourseCardProps) {
@@ -76,18 +77,14 @@ export function CourseCard({ course, viewMode }: CourseCardProps) {
                 </div>
                 <div className="flex items-center gap-1">
                   <Users className="w-4 h-4" />
-                  <span>{course.students.toLocaleString()}</span>
+                  <span>{course.students}+ Delivered</span>
                 </div>
                 <div className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
                   <span>{course.duration}</span>
                 </div>
-                <div className="flex items-center gap-1">
-                  <BookOpen className="w-4 h-4" />
-                  <span>{course.lessons} lessons</span>
-                </div>
               </div>
-              <span className="text-green-400 font-semibold">Free</span>
+              <span className="text-green-400 font-semibold">₹{course.price?.toLocaleString()}</span>
             </div>
           </div>
         </div>
@@ -121,7 +118,7 @@ export function CourseCard({ course, viewMode }: CourseCardProps) {
             <Badge variant="outline" className="text-xs border-glass-border">
               {course.level}
             </Badge>
-            <span className="text-xs text-green-400 font-medium">Free</span>
+            <span className="text-xs text-green-400 font-medium">₹{course.price?.toLocaleString()}</span>
           </div>
 
           <h3 className="font-semibold text-foreground mb-2 line-clamp-2 group-hover:text-neon-blue transition-colors">
@@ -141,7 +138,7 @@ export function CourseCard({ course, viewMode }: CourseCardProps) {
             </div>
             <div className="flex items-center gap-1">
               <Users className="w-4 h-4" />
-              <span>{course.students.toLocaleString()}</span>
+              <span>{course.students}+ Done</span>
             </div>
             <div className="flex items-center gap-1">
               <Clock className="w-4 h-4" />

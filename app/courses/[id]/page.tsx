@@ -24,311 +24,995 @@ marked.setOptions({
 const courseData: Record<string, any> = {
   "1": {
     id: "1",
-    title: "Complete Python Programming",
+    title: "E-Commerce Website (React + Node.js)",
     description:
-      "Master Python from basics to advanced concepts. This comprehensive course covers everything from variables and data types to advanced topics like decorators, generators, and web scraping. Build real-world projects and prepare for technical interviews.",
-    thumbnail: "/python-programming-code-dark.jpg",
-    category: "Engineering",
+      "Full-stack online shopping platform with payment gateway, product management, cart functionality, and admin dashboard. Complete source code with deployment guide included.",
+    thumbnail: "https://images.unsplash.com/photo-1557821552-17105176677c?w=600&h=400&fit=crop",
+    category: "Web Development",
     rating: 4.9,
-    students: 12500,
-    duration: "45 hours",
-    lessons: 120,
+    students: 15,
+    duration: "7-10 days",
+    lessons: 8,
     instructor: {
-      name: "Dr. Anjali Gupta",
-      avatar: "/female-professor-avatar.png",
-      title: "Senior Software Engineer at Google",
-      students: 45000,
+      name: "YourCapstone Team",
+      avatar: "https://i.pravatar.cc/150?img=68",
+      title: "Professional Project Developers",
+      students: 3500,
       courses: 12,
     },
-    level: "Beginner to Advanced",
+    level: "Intermediate",
     language: "English",
-    lastUpdated: "November 2024",
+    lastUpdated: "January 2026",
+    price: 1000,
     currentVideo: {
       id: "v1",
-      title: "Introduction to Python Programming",
-      youtubeId: "rfscVS0vtbw", // freeCodeCamp - Python for Beginners
-      duration: "4:26:52",
+      title: "E-Commerce Project Demo",
+      youtubeId: "1u2FvgKH_cs", // React E-commerce demo
+      duration: "15:30",
     },
     playlist: [
       {
         id: "v1",
-        title: "Introduction to Python Programming",
-        youtubeId: "rfscVS0vtbw", // freeCodeCamp - Full Python Course
-        duration: "4:26:52",
+        title: "E-Commerce Project Demo",
+        youtubeId: "1u2FvgKH_cs",
+        duration: "15:30",
         completed: true,
-        notes: lessonNotes.v1,
       },
       {
         id: "v2",
-        title: "Variables and Data Types",
-        youtubeId: "Z1Yd7upQsXY", // Corey Schafer - Variables
-        duration: "18:45",
-        completed: true,
-        notes: lessonNotes.v2,
+        title: "React Frontend Setup",
+        youtubeId: "0riD_TTJhBQ",
+        duration: "20:15",
+        completed: false,
       },
       {
         id: "v3",
-        title: "Strings - Working with Textual Data",
-        youtubeId: "k9TUPpGqYTo", // Corey Schafer - Strings
-        duration: "22:15",
+        title: "Node.js Backend API",
+        youtubeId: "fgTGADljAeg",
+        duration: "18:45",
         completed: false,
-        notes: lessonNotes.v3,
       },
       {
         id: "v4",
-        title: "Lists, Tuples, and Sets",
-        youtubeId: "W8KRzm-HUcc", // Corey Schafer - Lists, Tuples, Sets
-        duration: "37:05",
+        title: "Payment Gateway Integration",
+        youtubeId: "1r-F3FIONl8",
+        duration: "22:30",
         completed: false,
-        notes: lessonNotes.v4,
+      },
+    ],
+    content: {
+      overview: [
+        "Complete React + Node.js e-commerce platform",
+        "Payment gateway integration (Razorpay/Stripe)",
+        "Product management with image upload",
+        "Shopping cart and checkout functionality",
+        "Admin dashboard for order management",
+        "User authentication and authorization",
+        "Responsive design for mobile and desktop",
+        "Complete source code and documentation",
+      ],
+      topics: [
+        {
+          title: "Frontend Features",
+          items: [
+            "Product listing with filters and search",
+            "Shopping cart functionality",
+            "User authentication (Login/Signup)",
+            "Product details page",
+            "Checkout process",
+          ],
+        },
+        {
+          title: "Backend Features",
+          items: [
+            "REST API with Node.js/Express",
+            "MongoDB database integration",
+            "Payment gateway APIs",
+            "Order management system",
+            "Image upload handling",
+          ],
+        },
+        {
+          title: "Admin Panel",
+          items: [
+            "Product CRUD operations",
+            "Order tracking and management",
+            "User management",
+            "Sales analytics dashboard",
+          ],
+        },
+      ],
+    },
+  },
+  "2": {
+    id: "2",
+    title: "College Management System (PHP + MySQL)",
+    description:
+      "Complete student, faculty, and course management system with attendance tracking, grade management, and administrative features.",
+    thumbnail: "https://www.campusmedicine.com/blog/wp-content/uploads/2017/11/College-Management-Systems.jpg",
+    category: "Web Development",
+    rating: 4.8,
+    students: 15,
+    duration: "10-12 days",
+    lessons: 6,
+    instructor: {
+      name: "YourCapstone Team",
+      avatar: "https://i.pravatar.cc/150?img=68",
+      title: "Professional Project Developers",
+      students: 3500,
+      courses: 12,
+    },
+    level: "Beginner",
+    language: "English",
+    lastUpdated: "January 2026",
+    price: 1000,
+    currentVideo: {
+      id: "v1",
+      title: "College Management System Demo",
+      youtubeId: "3d7EqY5-7yM",
+      duration: "12:45",
+    },
+    playlist: [
+      {
+        id: "v1",
+        title: "College Management System Demo",
+        youtubeId: "3d7EqY5-7yM",
+        duration: "12:45",
+        completed: true,
       },
       {
-        id: "v5",
-        title: "Dictionaries - Working with Key-Value Pairs",
-        youtubeId: "daefaLgNkw0", // Corey Schafer - Dictionaries
-        duration: "23:53",
+        id: "v2",
+        title: "Student Management Module",
+        youtubeId: "gvQNOOdB5A4",
+        duration: "15:20",
         completed: false,
-        notes: lessonNotes.v5,
       },
       {
-        id: "v6",
-        title: "Conditionals and Booleans - If, Elif, Else",
-        youtubeId: "DZwmZ8Usvnk", // Corey Schafer - Conditionals
-        duration: "20:15",
+        id: "v3",
+        title: "Faculty Management",
+        youtubeId: "HfTXHrWMGVY",
+        duration: "13:30",
         completed: false,
-        notes: lessonNotes.v6,
       },
       {
-        id: "v7",
-        title: "Loops and Iterations - For/While Loops",
-        youtubeId: "6iF8Xb7Z3wQ", // Corey Schafer - Loops
+        id: "v4",
+        title: "Attendance System",
+        youtubeId: "vHjcElAVBMc",
+        duration: "18:00",
+        completed: false,
+      },
+    ],
+    content: {
+      overview: [
+        "Complete PHP/MySQL college management solution",
+        "Student registration and profile management",
+        "Faculty and staff management",
+        "Course and timetable management",
+        "Attendance tracking system",
+        "Grade management and report cards",
+        "Administrative dashboard",
+        "Complete documentation and setup guide",
+      ],
+      topics: [
+        {
+          title: "Student Module",
+          items: [
+            "Student registration and admission",
+            "Profile management",
+            "Course enrollment",
+            "View grades and attendance",
+            "Fee payment tracking",
+          ],
+        },
+        {
+          title: "Faculty Module",
+          items: [
+            "Faculty profiles",
+            "Course assignments",
+            "Attendance marking",
+            "Grade entry system",
+            "Timetable viewing",
+          ],
+        },
+        {
+          title: "Admin Module",
+          items: [
+            "User management",
+            "Course and department setup",
+            "Fee structure management",
+            "Reports generation",
+            "System settings",
+          ],
+        },
+      ],
+    },
+  },
+  "3": {
+    id: "3",
+    title: "Food Delivery App (React Native + Firebase)",
+    description:
+      "Cross-platform mobile app with real-time order tracking, payment integration, and restaurant management system.",
+    thumbnail: "https://images.unsplash.com/photo-1526367790999-0150786686a2?w=600&h=400&fit=crop",
+    category: "Mobile App",
+    rating: 4.9,
+    students: 10,
+    duration: "12-15 days",
+    lessons: 7,
+    instructor: {
+      name: "YourCapstone Team",
+      avatar: "https://i.pravatar.cc/150?img=68",
+      title: "Professional Project Developers",
+      students: 3500,
+      courses: 12,
+    },
+    level: "Advanced",
+    language: "English",
+    lastUpdated: "January 2026",
+    price: 2000,
+    currentVideo: {
+      id: "v1",
+      title: "Food Delivery App Demo",
+      youtubeId: "MoQD7LGN1-0",
+      duration: "16:20",
+    },
+    playlist: [
+      {
+        id: "v1",
+        title: "Food Delivery App Demo",
+        youtubeId: "MoQD7LGN1-0",
+        duration: "16:20",
+        completed: true,
+      },
+      {
+        id: "v2",
+        title: "React Native Setup",
+        youtubeId: "ANdSdIlgsEw",
+        duration: "22:15",
+        completed: false,
+      },
+      {
+        id: "v3",
+        title: "Firebase Integration",
+        youtubeId: "m_u6P5k0vP0",
+        duration: "19:45",
+        completed: false,
+      },
+      {
+        id: "v4",
+        title: "Real-time Order Tracking",
+        youtubeId: "bhhP5pwAnXA",
         duration: "25:30",
         completed: false,
       },
+    ],
+    content: {
+      overview: [
+        "Cross-platform React Native food delivery app",
+        "Real-time order tracking with maps",
+        "Payment gateway integration",
+        "Restaurant and menu management",
+        "User authentication with Firebase",
+        "Push notifications for order updates",
+        "Rating and review system",
+        "Complete source code for iOS and Android",
+      ],
+      topics: [
+        {
+          title: "User Features",
+          items: [
+            "Browse restaurants and menus",
+            "Add items to cart",
+            "Place and track orders",
+            "Multiple payment options",
+            "Order history",
+          ],
+        },
+        {
+          title: "Restaurant Features",
+          items: [
+            "Menu management",
+            "Order acceptance/rejection",
+            "Real-time order notifications",
+            "Analytics dashboard",
+          ],
+        },
+        {
+          title: "Technical Stack",
+          items: [
+            "React Native framework",
+            "Firebase Firestore database",
+            "Firebase Authentication",
+            "Google Maps integration",
+            "Payment gateway APIs",
+          ],
+        },
+      ],
+    },
+  },
+  "4": {
+    id: "4",
+    title: "Expense Tracker (Android - Kotlin)",
+    description:
+      "Native Android app for tracking expenses, budgets, and financial reports with local database.",
+    thumbnail: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop",
+    category: "Mobile App",
+    rating: 4.7,
+    students: 10,
+    duration: "8-10 days",
+    lessons: 5,
+    instructor: {
+      name: "YourCapstone Team",
+      avatar: "https://i.pravatar.cc/150?img=68",
+      title: "Professional Project Developers",
+      students: 3500,
+      courses: 12,
+    },
+    level: "Intermediate",
+    language: "English",
+    lastUpdated: "January 2026",
+    price: 2000,
+    currentVideo: {
+      id: "v1",
+      title: "Expense Tracker Demo",
+      youtubeId: "sSQMdGXRzGw",
+      duration: "10:15",
+    },
+    playlist: [
       {
-        id: "v8",
-        title: "Functions",
-        youtubeId: "9Os0o3wzS_I", // Corey Schafer - Functions
-        duration: "23:00",
-        completed: false,
+        id: "v1",
+        title: "Expense Tracker Demo",
+        youtubeId: "sSQMdGXRzGw",
+        duration: "10:15",
+        completed: true,
       },
       {
-        id: "v9",
-        title: "Import Modules and Exploring The Standard Library",
-        youtubeId: "CqvZ3vGoGs0", // Corey Schafer - Modules
-        duration: "24:34",
-        completed: false,
-      },
-      {
-        id: "v10",
-        title: "Classes and Instances",
-        youtubeId: "ZDa-Z5JzLYM", // Corey Schafer - OOP Part 1
-        duration: "30:00",
-        completed: false,
-      },
-      {
-        id: "v11",
-        title: "Class Variables",
-        youtubeId: "BJ-VvGyQxho", // Corey Schafer - OOP Part 2
-        duration: "16:25",
-        completed: false,
-      },
-      {
-        id: "v12",
-        title: "Classmethods and Staticmethods",
-        youtubeId: "rq8cL2XMM5M", // Corey Schafer - OOP Part 3
-        duration: "18:50",
-        completed: false,
-      },
-      {
-        id: "v13",
-        title: "Inheritance - Creating Subclasses",
-        youtubeId: "RSl87lqOXDE", // Corey Schafer - OOP Part 4
-        duration: "26:00",
-        completed: false,
-      },
-      {
-        id: "v14",
-        title: "Special (Magic/Dunder) Methods",
-        youtubeId: "3ohzBxoFHAY", // Corey Schafer - OOP Part 5
-        duration: "17:50",
-        completed: false,
-      },
-      {
-        id: "v15",
-        title: "Property Decorators - Getters, Setters, and Deleters",
-        youtubeId: "jCzT9XFZ5bw", // Corey Schafer - OOP Part 6
-        duration: "15:30",
-        completed: false,
-      },
-      {
-        id: "v16",
-        title: "Try/Except Blocks - Exception Handling",
-        youtubeId: "NIWwJbo-9_8", // Corey Schafer - Exception Handling
+        id: "v2",
+        title: "Kotlin Android Basics",
+        youtubeId: "F9UC9DY-vIU",
         duration: "18:30",
         completed: false,
       },
       {
-        id: "v17",
-        title: "File Objects - Reading and Writing to Files",
-        youtubeId: "Uh2ebFW8OYM", // Corey Schafer - File Handling
-        duration: "20:00",
-        completed: false,
-      },
-      {
-        id: "v18",
-        title: "Decorators - Dynamically Alter The Functionality Of Your Functions",
-        youtubeId: "FsAPt_9Bf3U", // Corey Schafer - Decorators
-        duration: "30:15",
-        completed: false,
-      },
-      {
-        id: "v19",
-        title: "Generators - How to use them and the benefits you receive",
-        youtubeId: "bD05uGo_sVI", // Corey Schafer - Generators
-        duration: "16:20",
-        completed: false,
-      },
-      {
-        id: "v20",
-        title: "Working with JSON Data",
-        youtubeId: "9N6a-VLBa2I", // Corey Schafer - JSON
+        id: "v3",
+        title: "Room Database Setup",
+        youtubeId: "lwAvI3WDXBY",
         duration: "20:45",
         completed: false,
       },
     ],
     content: {
       overview: [
-        "Learn Python 3 from scratch - no prior programming experience needed",
-        "Understand core programming concepts: variables, loops, functions, OOP",
-        "Build 10+ real-world projects including web scrapers and automation scripts",
-        "Master popular libraries: NumPy, Pandas, Requests, BeautifulSoup",
-        "Prepare for Python coding interviews with 100+ practice problems",
+        "Native Android expense tracking app in Kotlin",
+        "Room database for local storage",
+        "Budget management and tracking",
+        "Expense categorization",
+        "Visual charts and reports",
+        "Export data to CSV/PDF",
+        "Material Design UI",
+        "Complete source code and APK",
       ],
       topics: [
         {
-          title: "Python Fundamentals",
+          title: "Core Features",
           items: [
-            "Introduction to Python Programming",
-            "Variables and Data Types",
-            "Strings - Working with Textual Data",
-            "Lists, Tuples, and Sets",
-            "Dictionaries - Working with Key-Value Pairs",
+            "Add/Edit/Delete expenses",
+            "Category management",
+            "Budget setting and alerts",
+            "Monthly/Weekly reports",
+            "Search and filter",
           ],
         },
         {
-          title: "Control Flow",
+          title: "Technical Implementation",
           items: [
-            "Conditionals and Booleans - If, Elif, Else",
-            "Loops and Iterations - For/While Loops",
-          ],
-        },
-        {
-          title: "Functions & Modules",
-          items: [
-            "Functions",
-            "Import Modules and Exploring The Standard Library",
-          ],
-        },
-        {
-          title: "Object-Oriented Programming",
-          items: [
-            "Classes and Instances",
-            "Class Variables",
-            "Classmethods and Staticmethods",
-            "Inheritance - Creating Subclasses",
-            "Special (Magic/Dunder) Methods",
-            "Property Decorators - Getters, Setters, and Deleters",
-          ],
-        },
-        {
-          title: "Advanced Topics",
-          items: [
-            "Try/Except Blocks - Exception Handling",
-            "File Objects - Reading and Writing to Files",
-            "Decorators - Dynamically Alter The Functionality Of Your Functions",
-            "Generators - How to use them and the benefits you receive",
-            "Working with JSON Data",
+            "Kotlin programming",
+            "Room database integration",
+            "MVVM architecture",
+            "Chart libraries (MPAndroidChart)",
+            "Material Design components",
           ],
         },
       ],
-      notes: `## Introduction to Python
-
-Python is a high-level, interpreted programming language known for its simplicity and readability. Created by Guido van Rossum in 1991, Python has become one of the most popular programming languages in the world.
-
-### Why Learn Python?
-
-1. **Easy to Learn**: Python's syntax is clean and intuitive, making it perfect for beginners.
-2. **Versatile**: Used in web development, data science, AI/ML, automation, and more.
-3. **Large Community**: Extensive libraries and frameworks available.
-4. **High Demand**: Python developers are highly sought after in the job market.
-
-### Key Features
-
-- **Readable Syntax**: Code reads like English
-- **Dynamic Typing**: No need to declare variable types
-- **Extensive Libraries**: NumPy, Pandas, Django, Flask, and thousands more
-- **Cross-Platform**: Runs on Windows, Mac, Linux, and more
-
-### Getting Started
-
-\`\`\`python
-# Your first Python program
-print("Hello, World!")
-
-# Variables
-name = "EduLinkUp"
-students = 50000
-
-# Simple calculation
-result = 10 + 20
-print(f"Result: {result}")
-\`\`\`
-
-### Practice Exercise
-
-Try creating a program that:
-1. Asks for user's name
-2. Calculates their birth year from age
-3. Prints a personalized greeting`,
+    },
+  },
+  "5": {
+    id: "5",
+    title: "Face Recognition Attendance (Python + OpenCV)",
+    description:
+      "AI-powered attendance system using facial recognition with admin panel and attendance reports.",
+    thumbnail: "https://images.unsplash.com/photo-1555421689-491a97ff2040?w=600&h=400&fit=crop",
+    category: "ML/AI",
+    rating: 5.0,
+    students: 5,
+    duration: "10-12 days",
+    lessons: 6,
+    instructor: {
+      name: "YourCapstone Team",
+      avatar: "https://i.pravatar.cc/150?img=68",
+      title: "Professional Project Developers",
+      students: 3500,
+      courses: 12,
+    },
+    level: "Advanced",
+    language: "English",
+    lastUpdated: "January 2026",
+    price: 3400,
+    currentVideo: {
+      id: "v1",
+      title: "Face Recognition System Demo",
+      youtubeId: "sz25xxF_AVE",
+      duration: "14:30",
+    },
+    playlist: [
+      {
+        id: "v1",
+        title: "Face Recognition System Demo",
+        youtubeId: "sz25xxF_AVE",
+        duration: "14:30",
+        completed: true,
+      },
+      {
+        id: "v2",
+        title: "OpenCV Face Detection",
+        youtubeId: "oXlwWbU8l2o",
+        duration: "22:15",
+        completed: false,
+      },
+      {
+        id: "v3",
+        title: "Face Recognition Implementation",
+        youtubeId: "PmZ29Vta3a8",
+        duration: "25:40",
+        completed: false,
+      },
+    ],
+    content: {
+      overview: [
+        "AI-based face recognition attendance system",
+        "Real-time face detection and recognition",
+        "Automated attendance marking",
+        "Admin panel with Flask",
+        "Attendance reports and analytics",
+        "Student database management",
+        "High accuracy recognition",
+        "Complete Python source code",
+      ],
+      topics: [
+        {
+          title: "ML Features",
+          items: [
+            "Face detection using Haar Cascades",
+            "Face recognition with LBPH",
+            "Real-time camera integration",
+            "Model training and optimization",
+          ],
+        },
+        {
+          title: "Application Features",
+          items: [
+            "Student registration with photos",
+            "Automated attendance marking",
+            "Daily/Monthly reports",
+            "Export to Excel/PDF",
+            "Admin dashboard",
+          ],
+        },
+      ],
+    },
+  },
+  "6": {
+    id: "6",
+    title: "Disease Prediction System (ML + Flask)",
+    description:
+      "Machine learning model to predict diseases based on symptoms with web interface and data visualization.",
+    thumbnail: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop",
+    category: "ML/AI",
+    rating: 4.8,
+    students: 5,
+    duration: "12-14 days",
+    lessons: 7,
+    instructor: {
+      name: "YourCapstone Team",
+      avatar: "https://i.pravatar.cc/150?img=68",
+      title: "Professional Project Developers",
+      students: 3500,
+      courses: 12,
+    },
+    level: "Advanced",
+    language: "English",
+    lastUpdated: "January 2026",
+    price: 3400,
+    currentVideo: {
+      id: "v1",
+      title: "Disease Prediction Demo",
+      youtubeId: "fiz1ORTBGpY",
+      duration: "13:20",
+    },
+    playlist: [
+      {
+        id: "v1",
+        title: "Disease Prediction Demo",
+        youtubeId: "fiz1ORTBGpY",
+        duration: "13:20",
+        completed: true,
+      },
+      {
+        id: "v2",
+        title: "Machine Learning Model",
+        youtubeId: "7eh4d6sabA0",
+        duration: "20:45",
+        completed: false,
+      },
+    ],
+    content: {
+      overview: [
+        "ML-based disease prediction system",
+        "Multiple algorithms (Decision Tree, Random Forest, SVM)",
+        "Flask web application",
+        "Interactive symptom selection",
+        "Prediction accuracy visualization",
+        "Dataset preprocessing",
+        "Model comparison charts",
+        "Complete Python project with trained models",
+      ],
+      topics: [
+        {
+          title: "Machine Learning",
+          items: [
+            "Data preprocessing",
+            "Feature engineering",
+            "Model training (Decision Tree, Random Forest)",
+            "Model evaluation and comparison",
+            "Hyperparameter tuning",
+          ],
+        },
+        {
+          title: "Web Application",
+          items: [
+            "Flask backend setup",
+            "Symptom selection interface",
+            "Prediction results display",
+            "Data visualization charts",
+          ],
+        },
+      ],
+    },
+  },
+  "7": {
+    id: "7",
+    title: "Library Management System (Java + MySQL)",
+    description:
+      "Desktop application for managing books, members, issue/return, fine calculation with reports.",
+    thumbnail: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&h=400&fit=crop",
+    category: "Database",
+    rating: 4.9,
+    students: 12,
+    duration: "8-10 days",
+    lessons: 6,
+    instructor: {
+      name: "YourCapstone Team",
+      avatar: "https://i.pravatar.cc/150?img=68",
+      title: "Professional Project Developers",
+      students: 3500,
+      courses: 12,
+    },
+    level: "Beginner",
+    language: "English",
+    lastUpdated: "January 2026",
+    price: 5000,
+    currentVideo: {
+      id: "v1",
+      title: "Library Management Demo",
+      youtubeId: "RdCv9hV2jQI",
+      duration: "11:45",
+    },
+    playlist: [
+      {
+        id: "v1",
+        title: "Library Management Demo",
+        youtubeId: "RdCv9hV2jQI",
+        duration: "11:45",
+        completed: true,
+      },
+      {
+        id: "v2",
+        title: "Java Swing GUI",
+        youtubeId: "Kmgo00avvEw",
+        duration: "18:30",
+        completed: false,
+      },
+    ],
+    content: {
+      overview: [
+        "Complete Java desktop library management system",
+        "Book cataloging and management",
+        "Member registration and tracking",
+        "Issue and return management",
+        "Automated fine calculation",
+        "Search and filter functionality",
+        "Report generation",
+        "MySQL database integration",
+      ],
+      topics: [
+        {
+          title: "Core Modules",
+          items: [
+            "Book management (Add/Edit/Delete)",
+            "Member management",
+            "Issue book module",
+            "Return book module",
+            "Fine calculation system",
+          ],
+        },
+        {
+          title: "Reports & Admin",
+          items: [
+            "Book availability reports",
+            "Issued books tracking",
+            "Member history",
+            "Fine collection reports",
+            "Admin dashboard",
+          ],
+        },
+      ],
+    },
+  },
+  "8": {
+    id: "8",
+    title: "Hospital Management System (C# + SQL Server)",
+    description:
+      "Complete hospital management with patient records, appointments, billing, and pharmacy management.",
+    thumbnail: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=600&h=400&fit=crop",
+    category: "Database",
+    rating: 5.0,
+    students: 12,
+    duration: "14-16 days",
+    lessons: 8,
+    instructor: {
+      name: "YourCapstone Team",
+      avatar: "https://i.pravatar.cc/150?img=68",
+      title: "Professional Project Developers",
+      students: 3500,
+      courses: 12,
+    },
+    level: "Advanced",
+    language: "English",
+    lastUpdated: "January 2026",
+    price: 5000,
+    currentVideo: {
+      id: "v1",
+      title: "Hospital Management Demo",
+      youtubeId: "jYM6vG5lHNc",
+      duration: "15:50",
+    },
+    playlist: [
+      {
+        id: "v1",
+        title: "Hospital Management Demo",
+        youtubeId: "jYM6vG5lHNc",
+        duration: "15:50",
+        completed: true,
+      },
+    ],
+    content: {
+      overview: [
+        "Complete C# hospital management system",
+        "Patient registration and records",
+        "Doctor and staff management",
+        "Appointment scheduling",
+        "Billing and payment tracking",
+        "Pharmacy inventory management",
+        "Laboratory test management",
+        "SQL Server database with stored procedures",
+      ],
+      topics: [
+        {
+          title: "Patient Management",
+          items: [
+            "Patient registration",
+            "Medical history tracking",
+            "Appointment booking",
+            "Prescription management",
+          ],
+        },
+        {
+          title: "Hospital Operations",
+          items: [
+            "Doctor and staff management",
+            "Department management",
+            "Billing and invoicing",
+            "Pharmacy stock management",
+            "Lab test tracking",
+          ],
+        },
+      ],
+    },
+  },
+  "9": {
+    id: "9",
+    title: "Portfolio Website (HTML/CSS/JavaScript)",
+    description:
+      "Responsive personal portfolio with animations, contact form, and project showcase section.",
+    thumbnail: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
+    category: "Web Development",
+    rating: 4.6,
+    students: 15,
+    duration: "3-5 days",
+    lessons: 4,
+    instructor: {
+      name: "YourCapstone Team",
+      avatar: "https://i.pravatar.cc/150?img=68",
+      title: "Professional Project Developers",
+      students: 3500,
+      courses: 12,
+    },
+    level: "Beginner",
+    language: "English",
+    lastUpdated: "January 2026",
+    price: 1000,
+    currentVideo: {
+      id: "v1",
+      title: "Portfolio Website Demo",
+      youtubeId: "ldwlOzRvYOU",
+      duration: "8:30",
+    },
+    playlist: [
+      {
+        id: "v1",
+        title: "Portfolio Website Demo",
+        youtubeId: "ldwlOzRvYOU",
+        duration: "8:30",
+        completed: true,
+      },
+    ],
+    content: {
+      overview: [
+        "Modern responsive portfolio website",
+        "Smooth animations and transitions",
+        "Project showcase section",
+        "Skills and experience display",
+        "Working contact form",
+        "Mobile-first responsive design",
+        "SEO optimized",
+        "Easy to customize",
+      ],
+      topics: [
+        {
+          title: "Sections Included",
+          items: [
+            "Hero section with intro",
+            "About me section",
+            "Skills and technologies",
+            "Project portfolio gallery",
+            "Contact form",
+          ],
+        },
+      ],
+    },
+  },
+  "10": {
+    id: "10",
+    title: "Chat Application (Flutter + Firebase)",
+    description:
+      "Real-time messaging app with group chats, media sharing, notifications, and user authentication.",
+    thumbnail: "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=600&h=400&fit=crop",
+    category: "Mobile App",
+    rating: 4.9,
+    students: 10,
+    duration: "10-12 days",
+    lessons: 6,
+    instructor: {
+      name: "YourCapstone Team",
+      avatar: "https://i.pravatar.cc/150?img=68",
+      title: "Professional Project Developers",
+      students: 3500,
+      courses: 12,
+    },
+    level: "Intermediate",
+    language: "English",
+    lastUpdated: "January 2026",
+    price: 2000,
+    currentVideo: {
+      id: "v1",
+      title: "Chat App Demo",
+      youtubeId: "Ts2dlu-7dqo",
+      duration: "12:20",
+    },
+    playlist: [
+      {
+        id: "v1",
+        title: "Chat App Demo",
+        youtubeId: "Ts2dlu-7dqo",
+        duration: "12:20",
+        completed: true,
+      },
+    ],
+    content: {
+      overview: [
+        "Flutter chat application for iOS and Android",
+        "Real-time messaging with Firebase",
+        "One-on-one and group chats",
+        "Image and file sharing",
+        "Push notifications",
+        "User authentication",
+        "Online/offline status",
+        "Complete source code",
+      ],
+      topics: [
+        {
+          title: "Features",
+          items: [
+            "User registration and login",
+            "Real-time messaging",
+            "Group chat creation",
+            "Media sharing (images, files)",
+            "Push notifications",
+            "User profiles",
+          ],
+        },
+      ],
+    },
+  },
+  "11": {
+    id: "11",
+    title: "Sentiment Analysis Tool (NLP + Django)",
+    description:
+      "Natural language processing project for analyzing sentiments in text/reviews with visualization dashboard.",
+    thumbnail: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    category: "ML/AI",
+    rating: 4.7,
+    students: 5,
+    duration: "11-13 days",
+    lessons: 6,
+    instructor: {
+      name: "YourCapstone Team",
+      avatar: "https://i.pravatar.cc/150?img=68",
+      title: "Professional Project Developers",
+      students: 3500,
+      courses: 12,
+    },
+    level: "Advanced",
+    language: "English",
+    lastUpdated: "January 2026",
+    price: 3400,
+    currentVideo: {
+      id: "v1",
+      title: "Sentiment Analysis Demo",
+      youtubeId: "vzhNnCFAkwQ",
+      duration: "10:15",
+    },
+    playlist: [
+      {
+        id: "v1",
+        title: "Sentiment Analysis Demo",
+        youtubeId: "vzhNnCFAkwQ",
+        duration: "10:15",
+        completed: true,
+      },
+    ],
+    content: {
+      overview: [
+        "NLP-based sentiment analysis system",
+        "Analyze text for positive/negative/neutral sentiments",
+        "Django web application",
+        "Interactive visualization dashboard",
+        "Support for multiple data sources",
+        "Pre-trained models (VADER, TextBlob)",
+        "Batch processing capability",
+        "Export results to CSV/JSON",
+      ],
+      topics: [
+        {
+          title: "NLP Features",
+          items: [
+            "Text preprocessing",
+            "Sentiment classification",
+            "Entity recognition",
+            "Word cloud generation",
+            "Sentiment scoring",
+          ],
+        },
+      ],
+    },
+  },
+  "12": {
+    id: "12",
+    title: "Inventory Management (Python + PostgreSQL)",
+    description:
+      "Stock management system with supplier tracking, purchase orders, sales, and inventory reports.",
+    thumbnail: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop",
+    category: "Database",
+    rating: 4.8,
+    students: 12,
+    duration: "9-11 days",
+    lessons: 6,
+    instructor: {
+      name: "YourCapstone Team",
+      avatar: "https://i.pravatar.cc/150?img=68",
+      title: "Professional Project Developers",
+      students: 3500,
+      courses: 12,
+    },
+    level: "Intermediate",
+    language: "English",
+    lastUpdated: "January 2026",
+    price: 5000,
+    currentVideo: {
+      id: "v1",
+      title: "Inventory Management Demo",
+      youtubeId: "xWKpV0d6iLk",
+      duration: "13:40",
+    },
+    playlist: [
+      {
+        id: "v1",
+        title: "Inventory Management Demo",
+        youtubeId: "xWKpV0d6iLk",
+        duration: "13:40",
+        completed: true,
+      },
+    ],
+    content: {
+      overview: [
+        "Complete Python inventory management system",
+        "Product and stock management",
+        "Supplier tracking",
+        "Purchase order management",
+        "Sales and billing",
+        "Low stock alerts",
+        "Comprehensive reporting",
+        "PostgreSQL database",
+      ],
+      topics: [
+        {
+          title: "Core Modules",
+          items: [
+            "Product management",
+            "Stock tracking",
+            "Purchase orders",
+            "Sales management",
+            "Supplier management",
+          ],
+        },
+      ],
     },
   },
 }
 
-// Default course for other IDs
-const defaultCourse = {
-  id: "default",
-  title: "Course Not Found",
-  description: "This course is not available.",
-  thumbnail: "/online-learning-platform.png",
+// Fallback for unknown course IDs
+const getDefaultCourse = (id: string) => ({
+  id: id,
+  title: "Project Not Found",
+  description: "This project is not available in our catalog.",
+  thumbnail: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop",
   category: "General",
   rating: 0,
   students: 0,
-  duration: "0 hours",
+  duration: "0 days",
   lessons: 0,
   instructor: {
-    name: "Unknown",
-    avatar: "/diverse-avatars.png",
-    title: "Instructor",
-    students: 0,
-    courses: 0,
+    name: "YourCapstone Team",
+    avatar: "https://i.pravatar.cc/150?img=68",
+    title: "Professional Project Developers",
+    students: 3500,
+    courses: 12,
   },
   level: "Unknown",
   language: "English",
-  lastUpdated: "Unknown",
+  lastUpdated: "January 2026",
+  price: 0,
   currentVideo: {
     id: "v1",
-    title: "No video available",
+    title: "No demo available",
     youtubeId: "dQw4w9WgXcQ",
     duration: "0:00",
   },
   playlist: [],
   content: {
-    overview: [],
+    overview: ["Project not found. Please check our services page for available projects."],
     topics: [],
-    notes: "No content available",
   },
-}
+})
 
 export default function CourseDetailPage({
   params,
@@ -337,7 +1021,7 @@ export default function CourseDetailPage({
 }) {
   const resolvedParams = use(params)
   const { user } = useAuth()
-  const course = courseData[resolvedParams.id] || defaultCourse
+  const course = courseData[resolvedParams.id] || getDefaultCourse(resolvedParams.id)
   const [currentVideoId, setCurrentVideoId] = useState(course.currentVideo?.id)
   const [isLiked, setIsLiked] = useState(false)
 
@@ -359,7 +1043,7 @@ export default function CourseDetailPage({
           className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground mb-6 transition-colors"
         >
           <ChevronLeft className="w-4 h-4" />
-          Back to Courses
+          Back to Services
         </Link>
 
         <div className="grid lg:grid-cols-3 gap-8">

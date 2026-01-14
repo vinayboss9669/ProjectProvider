@@ -27,14 +27,14 @@ export function PlaylistSidebar({ playlist, currentVideoId, onSelectVideo, cours
       <div className="p-4 border-b border-glass-border">
         <div className="flex items-center gap-2 mb-3">
           <ListVideo className="w-5 h-5 text-neon-blue" />
-          <h3 className="font-semibold text-foreground">Course Playlist</h3>
+          <h3 className="font-semibold text-foreground">Project Files</h3>
         </div>
         <p className="text-sm text-muted-foreground mb-3 line-clamp-1">{courseName}</p>
         {/* Progress Bar */}
         <div className="space-y-2">
           <div className="flex items-center justify-between text-xs text-muted-foreground">
             <span>
-              {completedCount}/{playlist.length} completed
+              {completedCount}/{playlist.length} viewed
             </span>
             <span>{Math.round(progress)}%</span>
           </div>

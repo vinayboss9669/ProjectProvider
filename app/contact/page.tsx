@@ -24,25 +24,25 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 const contactInfo = [
   {
     icon: Mail,
-    title: "Email",
-    value: "support@edulinkup.com",
-    description: "We typically respond within 24 hours",
+    title: "Email Us",
+    value: "projects@yourcapstone.com",
+    description: "Send detailed capstone requirements",
     color: "from-blue-500 to-cyan-500",
     shadowColor: "shadow-blue-500/20",
   },
   {
     icon: Phone,
-    title: "Phone",
+    title: "Call/WhatsApp",
     value: "+91 98765 43210",
-    description: "Mon-Sat, 9am to 6pm IST",
+    description: "Instant help? WhatsApp karein!",
     color: "from-neon-purple to-pink-500",
     shadowColor: "shadow-purple-500/20",
   },
   {
     icon: MapPin,
-    title: "Office",
-    value: "West Bengal, India",
-    description: "Visit us at our headquarters",
+    title: "Available Hours",
+    value: "Mon-Sat: 9 AM - 9 PM",
+    description: "Sunday: 10 AM - 6 PM IST",
     color: "from-emerald-500 to-teal-500",
     shadowColor: "shadow-emerald-500/20",
   },
@@ -50,26 +50,26 @@ const contactInfo = [
 
 const faqItems = [
   {
-    question: "Are the courses free?",
+    question: "Kya aap meri specific technology mein project kar sakte ho?",
     answer:
-      "Yes, most of our courses are completely free. Some premium courses may have a fee, but we ensure quality education remains accessible.",
+      "Haan! Hum almost sabhi technologies mein kaam karte hain - Web (React, PHP, Django), Mobile (Flutter, Android), Desktop (Java, Python), ML/AI. Agar koi specific tech chahiye, pehle confirm kar lein.",
     icon: "💡",
   },
   {
-    question: "How do I get a certificate?",
+    question: "Project kitne din mein complete hoga?",
     answer:
-      "Complete all course modules and assessments to receive a digital certificate that you can share on LinkedIn and other platforms.",
+      "Simple projects 3-5 days, moderate 5-8 days, aur complex projects 10-15 days mein deliver hote hain. Urgent delivery bhi available hai with extra charges.",
     icon: "🎓",
   },
   {
-    question: "Can I access courses on mobile?",
-    answer: "Our platform is fully responsive and works great on all devices including smartphones and tablets.",
+    question: "Kya source code milega?",
+    answer: "Haan, bilkul! Aapko complete source code with comments, documentation, database files, aur PPT milega. Full ownership aapki.",
     icon: "📱",
   },
   {
-    question: "How can I become an instructor?",
+    question: "Payment kaise hoti hai?",
     answer:
-      "We welcome passionate educators! Apply through our instructor program page and our team will review your application.",
+      "50% advance payment project start karne se pehle, aur 50% completion ke baad. UPI, Bank Transfer, Paytm - sab accepted hai.",
     icon: "👨‍🏫",
   },
 ]
@@ -78,8 +78,9 @@ export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    subject: "",
-    category: "",
+    phone: "",
+    projectType: "",
+    technology: "",
     message: "",
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -97,8 +98,9 @@ export default function ContactPage() {
     setFormData({
       name: "",
       email: "",
-      subject: "",
-      category: "",
+      phone: "",
+      projectType: "",
+      technology: "",
       message: "",
     })
 
@@ -124,14 +126,14 @@ export default function ContactPage() {
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass border border-white/10 mb-6">
               <MessageCircle className="w-4 h-4 text-neon-purple" />
-              <span className="text-sm text-muted-foreground">We're Here to Help</span>
+              <span className="text-sm text-muted-foreground">24/7 Support Available</span>
             </div>
 
             <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">
-              Get in <span className="gradient-text">Touch</span>
+              Request Your <span className="gradient-text">Project</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto mb-8">
-              Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+              Fill karo details, hum 24 hours mein response denge. Apni project ki puri details share karein.
             </p>
             <div className="flex items-center justify-center gap-2">
               <div className="h-px w-16 bg-gradient-to-r from-transparent to-neon-blue/50" />
@@ -193,22 +195,22 @@ export default function ContactPage() {
                   <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-neon-blue/20 to-neon-purple/20 flex items-center justify-center">
                     <Send className="w-5 h-5 text-neon-blue" />
                   </div>
-                  <h2 className="text-2xl font-bold text-foreground">Send us a Message</h2>
+                  <h2 className="text-2xl font-bold text-foreground">Project Request Form</h2>
                 </div>
 
                 {submitted && (
                   <div className="mb-6 p-4 rounded-xl bg-green-500/10 border border-green-500/30 flex items-center gap-3">
                     <CheckCircle2 className="w-5 h-5 text-green-400" />
-                    <span className="text-green-400">Thank you for your message! We'll get back to you soon.</span>
+                    <span className="text-green-400">Request Received! Hum jaldi hi aapse contact karenge.</span>
                   </div>
                 )}
 
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="space-y-2">
-                      <label className="text-sm font-medium text-foreground">Name</label>
+                      <label className="text-sm font-medium text-foreground">Your Name</label>
                       <Input
-                        placeholder="Your name"
+                        placeholder="Enter your full name"
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                         className="bg-white/5 border-white/10 focus:border-neon-blue/50 transition-colors"
@@ -216,10 +218,10 @@ export default function ContactPage() {
                       />
                     </div>
                     <div className="space-y-2">
-                      <label className="text-sm font-medium text-foreground">Email</label>
+                      <label className="text-sm font-medium text-foreground">Email Address</label>
                       <Input
                         type="email"
-                        placeholder="your@email.com"
+                        placeholder="your.email@example.com"
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                         className="bg-white/5 border-white/10 focus:border-neon-blue/50 transition-colors"
@@ -230,39 +232,53 @@ export default function ContactPage() {
 
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="space-y-2">
-                      <label className="text-sm font-medium text-foreground">Category</label>
-                      <Select
-                        value={formData.category}
-                        onValueChange={(value) => setFormData({ ...formData, category: value })}
-                      >
-                        <SelectTrigger className="bg-white/5 border-white/10 focus:border-neon-blue/50">
-                          <SelectValue placeholder="Select category" />
-                        </SelectTrigger>
-                        <SelectContent className="bg-background/95 backdrop-blur-xl border-white/10">
-                          <SelectItem value="general">General Inquiry</SelectItem>
-                          <SelectItem value="courses">Courses</SelectItem>
-                          <SelectItem value="technical">Technical Support</SelectItem>
-                          <SelectItem value="partnership">Partnership</SelectItem>
-                          <SelectItem value="feedback">Feedback</SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
-                    <div className="space-y-2">
-                      <label className="text-sm font-medium text-foreground">Subject</label>
+                      <label className="text-sm font-medium text-foreground">Phone Number (WhatsApp preferred)</label>
                       <Input
-                        placeholder="Subject of your message"
-                        value={formData.subject}
-                        onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
+                        type="tel"
+                        placeholder="+91 98765 43210"
+                        value={formData.phone}
+                        onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         className="bg-white/5 border-white/10 focus:border-neon-blue/50 transition-colors"
                         required
                       />
                     </div>
+                    <div className="space-y-2">
+                      <label className="text-sm font-medium text-foreground">Project Type</label>
+                      <Select
+                        value={formData.projectType}
+                        onValueChange={(value) => setFormData({ ...formData, projectType: value })}
+                      >
+                        <SelectTrigger className="bg-white/5 border-white/10 focus:border-neon-blue/50">
+                          <SelectValue placeholder="Select project type" />
+                        </SelectTrigger>
+                        <SelectContent className="bg-background/95 backdrop-blur-xl border-white/10">
+                          <SelectItem value="web">Web Development</SelectItem>
+                          <SelectItem value="mobile">Mobile App</SelectItem>
+                          <SelectItem value="desktop">Desktop Application</SelectItem>
+                          <SelectItem value="ml">ML/AI Project</SelectItem>
+                          <SelectItem value="database">Database Project</SelectItem>
+                          <SelectItem value="mini">Mini Project/Assignment</SelectItem>
+                          <SelectItem value="other">Other</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
                   </div>
 
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-foreground">Message</label>
+                    <label className="text-sm font-medium text-foreground">Technology/Language Required</label>
+                    <Input
+                      placeholder="e.g., React.js, Python, Flutter, Java, etc."
+                      value={formData.technology}
+                      onChange={(e) => setFormData({ ...formData, technology: e.target.value })}
+                      className="bg-white/5 border-white/10 focus:border-neon-blue/50 transition-colors"
+                      required
+                    />
+                  </div>
+
+                  <div className="space-y-2">
+                    <label className="text-sm font-medium text-foreground">Project Details & Requirements</label>
                     <Textarea
-                      placeholder="Tell us how we can help..."
+                      placeholder="Apni project ki puri details likho - features, functionality, deadline, budget range, aur koi special requirement..."
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       className="bg-white/5 border-white/10 focus:border-neon-blue/50 transition-colors min-h-[150px] resize-none"
@@ -278,11 +294,11 @@ export default function ContactPage() {
                     {isSubmitting ? (
                       <span className="flex items-center gap-2">
                         <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                        Sending...
+                        Submitting...
                       </span>
                     ) : (
                       <span className="flex items-center gap-2">
-                        Send Message
+                        Submit Project Request
                         <Send className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
                       </span>
                     )}

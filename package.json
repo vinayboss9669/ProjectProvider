@@ -1,5 +1,5 @@
 {
-  "name": "edulinkup",
+  "name": "yourcapstone",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -76,6 +76,7 @@
     "@types/react-dom": "^19",
     "baseline-browser-mapping": "^2.8.32",
     "postcss": "^8.5",
+    "sharp": "^0.34.5",
     "tailwindcss": "^4.1.9",
     "tw-animate-css": "1.3.3",
     "typescript": "5.9.3"

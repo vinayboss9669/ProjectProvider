@@ -1,47 +1,47 @@
 import Link from "next/link"
-import { Cpu, Stethoscope, GraduationCap, Landmark, ArrowRight, BookOpen, Users } from "lucide-react"
+import { Cpu, Smartphone, Brain, Database, ArrowRight, BookOpen, Users } from "lucide-react"
 
 const categories = [
   {
-    id: "engineering",
-    title: "Engineering",
+    id: "web-development",
+    title: "Web Development",
     description:
-      "JEE, GATE, and coding courses for aspiring engineers. Master programming, algorithms, and core subjects.",
+      "Full-stack websites, e-commerce platforms, CMS, and web applications using React, Node.js, PHP, Django.",
     icon: Cpu,
     color: "from-blue-500 to-cyan-500",
     shadowColor: "shadow-blue-500/20",
-    courses: 120,
-    students: "25K+",
+    courses: "₹1,000",
+    students: "15+ Delivered",
   },
   {
-    id: "medical",
-    title: "Medical",
-    description: "NEET, AIIMS preparation with comprehensive study materials. Biology, Chemistry, and Physics mastery.",
-    icon: Stethoscope,
+    id: "mobile-app",
+    title: "Mobile Apps",
+    description: "Android aur iOS apps - simple se complex tak. Cross-platform ya native, Flutter, React Native.",
+    icon: Smartphone,
     color: "from-green-500 to-emerald-500",
     shadowColor: "shadow-green-500/20",
-    courses: 85,
-    students: "18K+",
+    courses: "₹2,000",
+    students: "10+ Delivered",
   },
   {
-    id: "boards",
-    title: "Board Exams",
-    description: "CBSE, ICSE, and State board preparation. Excel in your 10th and 12th board examinations.",
-    icon: GraduationCap,
+    id: "ml-ai",
+    title: "ML/AI Projects",
+    description: "Data analysis, prediction models, chatbots, image processing using Python, TensorFlow, OpenCV.",
+    icon: Brain,
     color: "from-purple-500 to-pink-500",
     shadowColor: "shadow-purple-500/20",
-    courses: 95,
-    students: "30K+",
+    courses: "₹3,400",
+    students: "5+ Delivered",
   },
   {
-    id: "government",
-    title: "Government Exams",
-    description: "UPSC, SSC, Banking, and Railway exam preparation. Comprehensive courses for competitive exams.",
-    icon: Landmark,
+    id: "database",
+    title: "Database Projects",
+    description: "Complete DBMS projects with ER diagrams, normalization, queries using MySQL, MongoDB, PostgreSQL.",
+    icon: Database,
     color: "from-orange-500 to-red-500",
     shadowColor: "shadow-orange-500/20",
-    courses: 110,
-    students: "22K+",
+    courses: "₹5,000",
+    students: "12+ Delivered",
   },
 ]
 
@@ -58,15 +58,15 @@ export function CategorySection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-neon-blue/10 border border-neon-blue/20 mb-6">
             <BookOpen className="w-4 h-4 text-neon-blue" />
-            <span className="text-sm font-medium text-neon-blue">Popular Learning Paths</span>
+            <span className="text-sm font-medium text-neon-blue">Our Project Services</span>
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold mb-5 tracking-tight">
-            <span className="gradient-text">Explore Categories</span>
+            <span className="gradient-text">What We Provide</span>
           </h2>
 
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg leading-relaxed">
-            Choose your path and start learning with our curated courses designed for every aspiration.
+            From simple assignments to complex final year projects - we handle all types of academic development work.
           </p>
         </div>
 
@@ -102,11 +102,10 @@ export function CategorySection() {
                     {category.description}
                   </p>
 
-                  <div className="flex items-center gap-4 mb-4 text-sm">
+                  <div className="flex items-center gap-4 mb-4 text-sm flex-wrap">
                     <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-foreground/5">
                       <BookOpen className="w-3.5 h-3.5 text-neon-blue" />
                       <span className="text-foreground font-semibold">{category.courses}</span>
-                      <span className="text-muted-foreground">courses</span>
                     </div>
                     <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-foreground/5">
                       <Users className="w-3.5 h-3.5 text-neon-purple" />
@@ -129,7 +128,7 @@ export function CategorySection() {
             href="/courses"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-neon-blue to-neon-purple text-white font-semibold hover:shadow-lg hover:shadow-neon-blue/25 transition-all duration-300 hover:scale-105"
           >
-            <span>Browse All Categories</span>
+            <span>View All Services</span>
             <ArrowRight className="w-5 h-5" />
           </Link>
         </div>

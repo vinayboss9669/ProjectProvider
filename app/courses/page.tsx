@@ -12,95 +12,195 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 const allCourses = [
   {
     id: "1",
-    title: "Complete Python Programming",
-    description: "Master Python from basics to advanced. Build real-world projects and land your dream job.",
-    thumbnail: "/python-programming-code-dark.jpg",
-    category: "engineering",
+    title: "E-Commerce Website (React + Node.js)",
+    description: "Full-stack online shopping platform with payment gateway, product management, cart, and admin dashboard.",
+    thumbnail: "https://images.unsplash.com/photo-1557821552-17105176677c?w=600&h=400&fit=crop",
+    category: "web-development",
     rating: 4.9,
-    students: 12500,
-    duration: "45 hours",
-    lessons: 120,
-    instructor: "Dr. Anjali Gupta",
+    students: 15,
+    duration: "7-10 days",
+    lessons: 0,
+    instructor: "YourCapstone Team",
+    level: "Intermediate",
+    price: 1000,
+  },
+  {
+    id: "2",
+    title: "College Management System (PHP + MySQL)",
+    description: "Complete student, faculty, and course management system with attendance tracking and grade management.",
+    thumbnail: "https://www.campusmedicine.com/blog/wp-content/uploads/2017/11/College-Management-Systems.jpg",
+    category: "web-development",
+    rating: 4.8,
+    students: 15,
+    duration: "10-12 days",
+    lessons: 0,
+    instructor: "YourCapstone Team",
     level: "Beginner",
+    price: 1000,
   },
   {
     id: "3",
-    title: "UPSC Complete Foundation",
-    description: "Start your UPSC journey with our comprehensive foundation course covering all subjects.",
-    thumbnail: "/india-government-building-dark.jpg",
-    category: "government",
+    title: "Food Delivery App (React Native + Firebase)",
+    description: "Cross-platform mobile app with real-time order tracking, payment integration, and restaurant management.",
+    thumbnail: "https://images.unsplash.com/photo-1526367790999-0150786686a2?w=600&h=400&fit=crop",
+    category: "mobile-app",
     rating: 4.9,
-    students: 15600,
-    duration: "100 hours",
-    lessons: 200,
-    instructor: "IAS Priya Sharma",
-    level: "Beginner",
+    students: 10,
+    duration: "12-15 days",
+    lessons: 0,
+    instructor: "YourCapstone Team",
+    level: "Advanced",
+    price: 2000,
+  },
+  {
+    id: "4",
+    title: "Expense Tracker (Android - Kotlin)",
+    description: "Native Android app for tracking expenses, budgets, and financial reports with local database.",
+    thumbnail: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop",
+    category: "mobile-app",
+    rating: 4.7,
+    students: 10,
+    duration: "8-10 days",
+    lessons: 0,
+    instructor: "YourCapstone Team",
+    level: "Intermediate",
+    price: 2000,
   },
   {
     id: "5",
-    title: "Data Structures & Algorithms",
-    description: "Master DSA concepts with hands-on coding problems and interview preparation.",
-    thumbnail: "/data-structures-algorithms-code.png",
-    category: "engineering",
+    title: "Face Recognition Attendance (Python + OpenCV)",
+    description: "AI-powered attendance system using facial recognition with admin panel and attendance reports.",
+    thumbnail: "https://images.unsplash.com/photo-1555421689-491a97ff2040?w=600&h=400&fit=crop",
+    category: "ml-ai",
+    rating: 5.0,
+    students: 5,
+    duration: "10-12 days",
+    lessons: 0,
+    instructor: "YourCapstone Team",
+    level: "Advanced",
+    price: 3400,
+  },
+  {
+    id: "6",
+    title: "Disease Prediction System (ML + Flask)",
+    description: "Machine learning model to predict diseases based on symptoms with web interface and data visualization.",
+    thumbnail: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop",
+    category: "ml-ai",
+    rating: 4.8,
+    students: 5,
+    duration: "12-14 days",
+    lessons: 0,
+    instructor: "YourCapstone Team",
+    level: "Advanced",
+    price: 3400,
+  },
+  {
+    id: "7",
+    title: "Library Management System (Java + MySQL)",
+    description: "Desktop application for managing books, members, issue/return, fine calculation with reports.",
+    thumbnail: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&h=400&fit=crop",
+    category: "database",
     rating: 4.9,
-    students: 9800,
-    duration: "50 hours",
-    lessons: 100,
-    instructor: "Tech Lead Arun",
-    level: "Intermediate",
+    students: 12,
+    duration: "8-10 days",
+    lessons: 0,
+    instructor: "YourCapstone Team",
+    level: "Beginner",
+    price: 5000,
   },
   {
     id: "8",
-    title: "SSC CGL Complete Course",
-    description: "Comprehensive SSC CGL preparation covering Quantitative, Reasoning, English, and GK.",
-    thumbnail: "/government-exam-study-dark.jpg",
-    category: "government",
-    rating: 4.7,
-    students: 8300,
-    duration: "70 hours",
-    lessons: 160,
-    instructor: "Rajesh Pandey",
+    title: "Hospital Management System (C# + SQL Server)",
+    description: "Complete hospital management with patient records, appointments, billing, and pharmacy management.",
+    thumbnail: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=600&h=400&fit=crop",
+    category: "database",
+    rating: 5.0,
+    students: 12,
+    duration: "14-16 days",
+    lessons: 0,
+    instructor: "YourCapstone Team",
+    level: "Advanced",
+    price: 5000,
+  },
+  {
+    id: "9",
+    title: "Portfolio Website (HTML/CSS/JavaScript)",
+    description: "Responsive personal portfolio with animations, contact form, and project showcase section.",
+    thumbnail: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
+    category: "web-development",
+    rating: 4.6,
+    students: 15,
+    duration: "3-5 days",
+    lessons: 0,
+    instructor: "YourCapstone Team",
     level: "Beginner",
+    price: 1000,
+  },
+  {
+    id: "10",
+    title: "Chat Application (Flutter + Firebase)",
+    description: "Real-time messaging app with group chats, media sharing, notifications, and user authentication.",
+    thumbnail: "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=600&h=400&fit=crop",
+    category: "mobile-app",
+    rating: 4.9,
+    students: 10,
+    duration: "10-12 days",
+    lessons: 0,
+    instructor: "YourCapstone Team",
+    level: "Intermediate",
+    price: 2000,
+  },
+  {
+    id: "11",
+    title: "Sentiment Analysis Tool (NLP + Django)",
+    description: "Natural language processing project for analyzing sentiments in text/reviews with visualization dashboard.",
+    thumbnail: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    category: "ml-ai",
+    rating: 4.7,
+    students: 5,
+    duration: "11-13 days",
+    lessons: 0,
+    instructor: "YourCapstone Team",
+    level: "Advanced",
+    price: 3400,
   },
   {
     id: "12",
-    title: "Banking Exams Preparation",
-    description: "Complete preparation for IBPS PO, SBI PO, and RBI Grade B exams.",
-    thumbnail: "/banking-finance-exam-dark.jpg",
-    category: "government",
-    rating: 4.6,
-    students: 5900,
-    duration: "45 hours",
-    lessons: 100,
-    instructor: "CA Mohan Das",
+    title: "Inventory Management (Python + PostgreSQL)",
+    description: "Stock management system with supplier tracking, purchase orders, sales, and inventory reports.",
+    thumbnail: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop",
+    category: "database",
+    rating: 4.8,
+    students: 12,
+    duration: "9-11 days",
+    lessons: 0,
+    instructor: "YourCapstone Team",
     level: "Intermediate",
+    price: 5000,
   },
 ]
 
 const categories = [
-  { id: "all", label: "All Courses", count: allCourses.length },
+  { id: "all", label: "All Projects", count: allCourses.length },
   {
-    id: "engineering",
-    label: "Engineering",
-    count: allCourses.filter((c) => c.category === "engineering").length,
+    id: "web-development",
+    label: "Web Development",
+    count: allCourses.filter((c) => c.category === "web-development").length,
   },
   {
-    id: "medical",
-    label: "Medical",
-    count: 0,
-    comingSoon: true,
+    id: "mobile-app",
+    label: "Mobile Apps",
+    count: allCourses.filter((c) => c.category === "mobile-app").length,
   },
   {
-    id: "boards",
-    label: "Board Exams",
-    count: 0,
-    comingSoon: true,
+    id: "ml-ai",
+    label: "ML/AI Projects",
+    count: allCourses.filter((c) => c.category === "ml-ai").length,
   },
   {
-    id: "government",
-    label: "Govt Exams",
-    count: 0,
-    comingSoon: true,
+    id: "database",
+    label: "Database Projects",
+    count: allCourses.filter((c) => c.category === "database").length,
   },
 ]
 
@@ -162,9 +262,9 @@ export default function CoursesPage() {
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-3xl md:text-4xl font-bold mb-2">
-            <span className="gradient-text">Explore Courses</span>
+            <span className="gradient-text">Our Project Services</span>
           </h1>
-          <p className="text-muted-foreground">Discover courses tailored to your learning goals</p>
+          <p className="text-muted-foreground">Browse our completed capstone projects and get yours done today</p>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8">
@@ -177,242 +277,78 @@ export default function CoursesPage() {
 
           {/* Main Content */}
           <div className="flex-1">
-            {/* Search and Controls - Hide for coming soon categories */}
-            {!["medical", "boards", "government"].includes(selectedCategory) && (
-              <div className="glass rounded-xl p-4 mb-6">
-                <div className="flex flex-col md:flex-row gap-4">
-                  {/* Search */}
-                  <div className="flex-1 relative">
-                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
-                    <Input
-                      type="text"
-                      placeholder="Search courses..."
-                      value={searchQuery}
-                      onChange={(e) => setSearchQuery(e.target.value)}
-                      className="pl-10 bg-white/5 border-glass-border"
-                    />
-                  </div>
+            {/* Search and Controls */}
+            <div className="glass rounded-xl p-4 mb-6">
+              <div className="flex flex-col md:flex-row gap-4">
+                {/* Search */}
+                <div className="flex-1 relative">
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
+                  <Input
+                    type="text"
+                    placeholder="Search projects by technology, type..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="pl-10 bg-white/5 border-glass-border"
+                  />
+                </div>
 
-                  {/* Mobile Filter Button */}
-                  <Sheet>
-                    <SheetTrigger asChild className="lg:hidden">
-                      <Button variant="outline" className="border-glass-border bg-transparent">
-                        <SlidersHorizontal className="w-4 h-4 mr-2" />
-                        Filters
-                      </Button>
-                    </SheetTrigger>
-                    <SheetContent side="left" className="w-[280px] bg-background/95 backdrop-blur-xl border-glass-border">
-                      <div className="mt-6">
-                        <FilterSidebar />
-                      </div>
-                    </SheetContent>
-                  </Sheet>
-
-                  {/* Sort */}
-                  <Select value={sortBy} onValueChange={setSortBy}>
-                    <SelectTrigger className="w-[180px] bg-white/5 border-glass-border">
-                      <SelectValue placeholder="Sort by" />
-                    </SelectTrigger>
-                    <SelectContent className="bg-background border-glass-border">
-                      <SelectItem value="popular">Most Popular</SelectItem>
-                      <SelectItem value="rating">Highest Rated</SelectItem>
-                      <SelectItem value="newest">Newest</SelectItem>
-                      <SelectItem value="duration">Duration</SelectItem>
-                    </SelectContent>
-                  </Select>
-
-                  {/* View Toggle */}
-                  <div className="flex items-center gap-1 p-1 bg-white/5 rounded-lg">
-                    <Button
-                      variant="ghost"
-                      size="icon"
-                      onClick={() => setViewMode("grid")}
-                      className={viewMode === "grid" ? "bg-neon-blue/20 text-neon-blue" : "text-muted-foreground"}
-                    >
-                      <Grid3X3 className="w-4 h-4" />
+                {/* Mobile Filter Button */}
+                <Sheet>
+                  <SheetTrigger asChild className="lg:hidden">
+                    <Button variant="outline" className="border-glass-border bg-transparent">
+                      <SlidersHorizontal className="w-4 h-4 mr-2" />
+                      Filters
                     </Button>
-                    <Button
-                      variant="ghost"
-                      size="icon"
-                      onClick={() => setViewMode("list")}
-                      className={viewMode === "list" ? "bg-neon-blue/20 text-neon-blue" : "text-muted-foreground"}
-                    >
-                      <List className="w-4 h-4" />
-                    </Button>
-                  </div>
+                  </SheetTrigger>
+                  <SheetContent side="left" className="w-[280px] bg-background/95 backdrop-blur-xl border-glass-border">
+                    <div className="mt-6">
+                      <FilterSidebar />
+                    </div>
+                  </SheetContent>
+                </Sheet>
+
+                {/* Sort */}
+                <Select value={sortBy} onValueChange={setSortBy}>
+                  <SelectTrigger className="w-[180px] bg-white/5 border-glass-border">
+                    <SelectValue placeholder="Sort by" />
+                  </SelectTrigger>
+                  <SelectContent className="bg-background border-glass-border">
+                    <SelectItem value="popular">Most Popular</SelectItem>
+                    <SelectItem value="rating">Highest Rated</SelectItem>
+                    <SelectItem value="newest">Newest</SelectItem>
+                    <SelectItem value="duration">Duration</SelectItem>
+                  </SelectContent>
+                </Select>
+
+                {/* View Toggle */}
+                <div className="flex items-center gap-1 p-1 bg-white/5 rounded-lg">
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    onClick={() => setViewMode("grid")}
+                    className={viewMode === "grid" ? "bg-neon-blue/20 text-neon-blue" : "text-muted-foreground"}
+                  >
+                    <Grid3X3 className="w-4 h-4" />
+                  </Button>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    onClick={() => setViewMode("list")}
+                    className={viewMode === "list" ? "bg-neon-blue/20 text-neon-blue" : "text-muted-foreground"}
+                  >
+                    <List className="w-4 h-4" />
+                  </Button>
                 </div>
               </div>
-            )}
+            </div>
 
             {/* Results Count */}
-            {!["medical", "boards", "government"].includes(selectedCategory) && (
-              <div className="mb-4 text-sm text-muted-foreground">
-                Showing <span className="text-foreground font-medium">{filteredCourses.length}</span> courses
-              </div>
-            )}
+            <div className="mb-4 text-sm text-muted-foreground">
+              Showing <span className="text-foreground font-medium">{filteredCourses.length}</span> sample projects
+            </div>
 
-            {/* Coming Soon State for Medical, Boards, and Govt Exams */}
-            {["medical", "boards", "government"].includes(selectedCategory) ? (
-              <div className="max-w-2xl mx-auto text-center py-0 -mt-12">
-                {/* Animated Icon */}
-                <div className="relative inline-block mb-6">
-                  <div className="absolute inset-0 bg-gradient-to-r from-neon-blue/20 to-neon-purple/20 rounded-full blur-3xl animate-pulse" />
-                  <div className="relative w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-neon-blue/20 to-neon-purple/20 border border-neon-blue/30 flex items-center justify-center">
-                    <svg className="w-16 h-16 text-neon-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                    </svg>
-                  </div>
-                </div>
-
-                {/* Heading */}
-                <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                  <span className="gradient-text">Coming Soon!</span>
-                </h1>
-                <p className="text-xl text-muted-foreground mb-8">
-                  We're working hard to bring you amazing{" "}
-                  {selectedCategory === "medical"
-                    ? "Medical"
-                    : selectedCategory === "boards"
-                      ? "Board Exams"
-                      : "Government Exams"}{" "}
-                  content.
-                </p>
-
-                {/* Features Grid */}
-                <div className="grid md:grid-cols-3 gap-4 mb-8">
-                  <div className="glass rounded-xl p-6">
-                    <svg className="w-8 h-8 text-neon-purple mx-auto mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-                    </svg>
-                    <h3 className="font-semibold text-foreground mb-2">Expert Content</h3>
-                    <p className="text-sm text-muted-foreground">
-                      High-quality videos from industry experts
-                    </p>
-                  </div>
-                  <div className="glass rounded-xl p-6">
-                    <svg className="w-8 h-8 text-neon-blue mx-auto mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                    <h3 className="font-semibold text-foreground mb-2">Launching Soon</h3>
-                    <p className="text-sm text-muted-foreground">
-                      Course will be available in the coming weeks
-                    </p>
-                  </div>
-                  <div className="glass rounded-xl p-6">
-                    <svg className="w-8 h-8 text-neon-cyan mx-auto mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-                    </svg>
-                    <h3 className="font-semibold text-foreground mb-2">Get Notified</h3>
-                    <p className="text-sm text-muted-foreground">
-                      Be the first to know when it's ready
-                    </p>
-                  </div>
-                </div>
-
-                {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-4">
-                  <Button
-                    className="bg-gradient-to-r from-neon-blue to-neon-purple hover:opacity-90 transition-opacity px-8 py-6 text-base"
-                    onClick={() => {
-                      // Open notify modal - we'll add this state
-                      const dialog = document.getElementById('notify-dialog') as HTMLDialogElement
-                      dialog?.showModal()
-                    }}
-                  >
-                    <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-                    </svg>
-                    Notify Me When Ready
-                    <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </Button>
-                  <Button
-                    variant="outline"
-                    className="glass border-glass-border px-8 py-6 text-base"
-                    onClick={() => setSelectedCategory("all")}
-                  >
-                    Explore Available Courses
-                  </Button>
-                </div>
-
-                {/* Interest Counter */}
-                <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                  </svg>
-                  <span className="font-medium text-foreground">284</span> people interested in{" "}
-                  {selectedCategory === "medical"
-                    ? "Medical"
-                    : selectedCategory === "boards"
-                      ? "Board Exams"
-                      : "Government Exams"}{" "}
-                  courses
-                </div>
-
-                {/* Notify Dialog */}
-                <dialog id="notify-dialog" className="glass rounded-2xl p-8 max-w-md backdrop:bg-black/50 m-auto backdrop:backdrop-blur-sm relative">
-                  <button
-                    onClick={() => {
-                      const dialog = document.getElementById('notify-dialog') as HTMLDialogElement
-                      dialog?.close()
-                    }}
-                    className="absolute top-4 right-4 text-muted-foreground hover:text-foreground transition-colors p-1 hover:bg-white/10 rounded-full cursor-pointer"
-                  >
-                    <X className="w-5 h-5" />
-                  </button>
-                  <div className="text-center">
-                    <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-neon-blue/20 flex items-center justify-center">
-                      <svg className="w-8 h-8 text-neon-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-                      </svg>
-                    </div>
-                    <h3 className="text-2xl font-bold text-foreground mb-2">Get Notified</h3>
-                    <p className="text-muted-foreground mb-6">
-                      We'll send you an email as soon as{" "}
-                      <span className="text-foreground font-semibold">
-                        {selectedCategory === "medical"
-                          ? "Medical"
-                          : selectedCategory === "boards"
-                            ? "Board Exams"
-                            : "Government Exams"}
-                      </span>{" "}
-                      courses are available.
-                    </p>
-                    <div className="mb-6">
-                      <label className="block text-left text-sm font-medium text-foreground mb-2">Email Address</label>
-                      <Input
-                        type="email"
-                        placeholder="your.email@example.com"
-                        className="glass border-glass-border"
-                      />
-                    </div>
-                    <div className="flex gap-3">
-                      <Button
-                        variant="outline"
-                        className="flex-1 border-white/10 hover:bg-white/10 text-white hover:text-white cursor-pointer"
-                        onClick={() => {
-                          const dialog = document.getElementById('notify-dialog') as HTMLDialogElement
-                          dialog?.close()
-                        }}
-                      >
-                        Cancel
-                      </Button>
-                      <Button
-                        className="flex-1 bg-gradient-to-r from-neon-blue to-neon-purple hover:opacity-90 cursor-pointer"
-                        onClick={() => {
-                          // Handle notification signup
-                          const dialog = document.getElementById('notify-dialog') as HTMLDialogElement
-                          dialog?.close()
-                        }}
-                      >
-                        Notify Me
-                      </Button>
-                    </div>
-                  </div>
-                </dialog>
-              </div>
-            ) : filteredCourses.length > 0 ? (
+            {/* Projects Grid */}
+            {filteredCourses.length > 0 ? (
               <div
                 className={
                   viewMode === "grid" ? "grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6" : "flex flex-col gap-4"
@@ -427,7 +363,7 @@ export default function CoursesPage() {
                 <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-muted flex items-center justify-center">
                   <Search className="w-8 h-8 text-muted-foreground" />
                 </div>
-                <h3 className="text-lg font-semibold text-foreground mb-2">No courses found</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-2">No projects found</h3>
                 <p className="text-muted-foreground">Try adjusting your filters or search query</p>
               </div>
             )}

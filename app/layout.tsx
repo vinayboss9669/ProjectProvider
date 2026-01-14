@@ -11,11 +11,11 @@ import { AuthProvider } from "@/components/auth-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "EduLinkUp - Coding & Education Platform",
+  title: "YourCapstone - Get Your Academic Projects Done by Experts",
   description:
-    "Join EduLinkUp - Your gateway to quality education in Engineering, Medical, Board exams, and Government exam preparation. Learn, connect, and grow with our ecosystem.",
-  keywords: ["education", "coding", "engineering", "medical", "board exams", "government exams", "online learning"],
-  generator: "Akshay",
+    "Professional capstone and academic project development service for students. Web, Mobile, ML/AI, Database projects with complete source code & documentation. Affordable prices, guaranteed on-time delivery.",
+  keywords: ["capstone project", "college projects", "academic projects", "final year project", "mini project", "web development project", "android app project", "python project", "machine learning project", "project help India", "student project service", "affordable projects", "project provider"],
+  generator: "YourCapstone Team",
   icons: {
     icon: "/icon.svg",
   },

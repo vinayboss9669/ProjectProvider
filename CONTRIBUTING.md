@@ -12,12 +12,12 @@
 
 **2.** Clone the forked repository.
 ```
-   git clone https://github.com/YOUR_USERNAME/EduLinkUp.git
+   git clone https://github.com/YOUR_USERNAME/YourCapstone.git
 ```
 
 **3.** Navigate to the project directory.
 ```
-   cd EduLinkUp
+   cd YourCapstone
 ```
 
 **4.** Create a new branch:
@@ -46,7 +46,7 @@
 
 **9.** Setup a reference(remote) to the original repository to get all the changes from the remote.
 ```
-   git remote add upstream https://github.com/eccentriccoder01/EduLinkUp.git
+   git remote add upstream https://github.com/eccentriccoder01/YourCapstone.git
 ```
 
 **10.** Check the remotes for this repository.
