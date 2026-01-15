@@ -5,7 +5,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Menu, BookOpen, Users, Home, Info, Mail, User, LogOut, Settings } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet"
 import { useAuth } from "@/components/auth-provider"
 import {
   DropdownMenu,
@@ -48,7 +48,7 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
             <div className="w-32 h-20 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
-              <img src="/logo5.png" alt="YourCapstone Logo" className="w-600 h-600 object-contain scale-110" />
+              <img src="/logo6.png" alt="YourCapstone Logo" className="w-600 h-600 object-contain scale-110" />
             </div>
           {/* <span className="text-xl font-bold gradient-text h-6">YourCapstone</span> */}
         </Link>
@@ -136,6 +136,7 @@ export function Navbar() {
             </Button>
           </SheetTrigger>
           <SheetContent side="right" className="w-[280px] bg-background/95 backdrop-blur-xl border-glass-border">
+            <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
             <div className="flex flex-col gap-6 mt-8">
               {navLinks.map((link) => {
                 const Icon = link.icon
